@@ -6,7 +6,7 @@ permalink: /cv/
 
 # Dokumente zum Download #
 
-* Mein CV Stand August 2016 [als PDF](../downloads/micwin_profil.pdf) und [als DOC](../downloads/micwin_profil.doc)
+* Mein CV Stand Juni 2017 [als PDF](../downloads/micwin_profil.pdf) und [als DOC](../downloads/micwin_profil.doc)
 
 # Zur Person #
 
