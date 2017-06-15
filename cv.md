@@ -11,18 +11,20 @@ permalink: /cv/
 # Zur Person #
 
 | **Name** | Michael Winkler  |
-| **Rollen:** | jee developer, devops, maven / git migrationen, dev coaching  |
+| **Rollen:** | devops engineer, maven / git migrationen, dev coaching  |
 | **Vertragsform** | Dienstleistungsvertrag ("freelancer")  |
-| **master skills** | java ee, maven, git, Scrum  |
-| **Mantren** | clean code, test first, head first  |
-| **Charakter** | team player, spina minded, focused, well plated  
-
+| **master skills** | ansible, git, maven, linux, jee  |
+| **Mantren** | wenn das Leben dir Zitronen gibt, mach Limonade draus , Ehrlichkeit ist ein Akt der Liebe |
+| **Charakter** | team player, spina minded, focused, well plated |
+| **Lieblings-Superheld** | Green Lantern |
+| **Lieblings-Serie** | Doctor Who |
 
 Abweichungen in Einzelfällen auf Nachfrage.
 
 # Operational Areas #
 
-| **DE** | Nur Einsatzorte mit ICE-Haltestelle|
-| **CH** | 5, 6, 8, 9  |
-| **LUX** | Nur die Hauptstadt |
-| **A** | Nur Wien |
+| **DE** | 1 Tag Remote, Bayern auch ohne |
+| **CH** | Nordost |
+| **Worldwide** | Remote work only, please ask for quote |
+
+ [Ether](https://de.wikipedia.org/wiki/Ethereum) and [Bitcoin](https://de.wikipedia.org/wiki/Bitcoin) accepted
