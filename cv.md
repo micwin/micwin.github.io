@@ -18,6 +18,7 @@ permalink: /cv/
 | **Charakter** | team player, spina minded, focused, well plated |
 | **Lieblings-Superheld** | Green Lantern |
 | **Lieblings-Serie** | Doctor Who |
+| | |
 
 Abweichungen in Einzelfällen auf Nachfrage.
 
@@ -26,5 +27,7 @@ Abweichungen in Einzelfällen auf Nachfrage.
 | **DE** | 1 Tag Remote, Bayern auch ohne |
 | **CH** | Nordost |
 | **Worldwide** | Remote work only, please ask for quote |
+| | |
 
- [Ether](https://de.wikipedia.org/wiki/Ethereum) and [Bitcoin](https://de.wikipedia.org/wiki/Bitcoin) accepted
+
+[Ether](https://de.wikipedia.org/wiki/Ethereum) and [Bitcoin](https://de.wikipedia.org/wiki/Bitcoin) accepted

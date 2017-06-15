@@ -9,7 +9,7 @@
 title: micwin.net Software-Entwicklung
 email: michael.winkler@micwin.net
 description: > # this means to ignore newlines until "baseurl:"
-  java, ee, javaee, jee, j2ee, devops, swing, jenkins, maven, git, ant
+  devops, ansible, git, java, ee, javaee, jee, j2ee, swing, jenkins, maven, ant, gitlab, gitlab-ci
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://www.micwin.net" # the base hostname & protocol for your site
 twitter_username: micwin2
