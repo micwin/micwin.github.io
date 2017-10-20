@@ -14,20 +14,16 @@ permalink: /cv/
 | **Rollen:** | devops engineer, maven / git migrationen, dev coaching  |
 | **Vertragsform** | Dienstleistungsvertrag ("freelancer")  |
 | **master skills** | ansible, git, maven, linux, jee  |
-| **Mantren** | wenn das Leben dir Zitronen gibt, mach Limonade draus , Ehrlichkeit ist ein Akt der Liebe |
+| **Mantren** | wenn das Leben dir Zitronen gibt, mach Limonade draus |
 | **Charakter** | team player, spina minded, focused, well plated |
-| **Lieblings-Superheld** | Green Lantern |
-| **Lieblings-Serie** | Doctor Who |
 | | |
 
 Abweichungen in Einzelfällen auf Nachfrage.
 
 # Operational Areas #
 
-| **DE** | 1 Tag Remote, Bayern auch ohne |
-| **CH** | Nordost |
-| **Worldwide** | Remote work only, please ask for quote |
+| **Europe** | 4 Tage vor Ort, 1 Tag Remote |
+| **Worldwide** | please ask  |
 | | |
-
 
 [Ether](https://de.wikipedia.org/wiki/Ethereum) and [Bitcoin](https://de.wikipedia.org/wiki/Bitcoin) accepted
