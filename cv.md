@@ -13,7 +13,7 @@ permalink: /cv/
 | **Name** | Michael Winkler  |
 | **Rollen:** | devops engineer, maven / git migrationen, dev coaching  |
 | **Vertragsform** | Dienstleistungsvertrag ("freelancer")  |
-| **master skills** | ansible, git, maven, linux, jee  |
+| **master skills** | ansible, docker, git, maven, linux, jee  |
 | **Mantren** | wenn das Leben dir Zitronen gibt, mach Limonade draus |
 | **Charakter** | team player, spina minded, focused, well plated |
 | | |
