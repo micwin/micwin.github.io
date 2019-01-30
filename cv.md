@@ -6,7 +6,7 @@ permalink: /cv/
 
 # Dokumente zum Download #
 
-* Mein CV Stand Juni 2017 [als PDF](../downloads/micwin_profil.pdf) und [als DOC](../downloads/micwin_profil.doc)
+* Mein CV Stand Januar 2019 [als PDF](../downloads/micwin_profil.pdf) und [als DOC](../downloads/micwin_profil.doc)
 
 # Zur Person #
 
@@ -18,7 +18,7 @@ permalink: /cv/
 | **Charakter** | team player, spina minded, focused, well plated |
 | | |
 
-Abweichungen in Einzelfällen auf Nachfrage.
+Abweichungen in Einzelfällen auf Nachfrage oder per Zufall
 
 # Operational Areas #
 
