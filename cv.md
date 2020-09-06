@@ -13,17 +13,18 @@ permalink: /cv/
 
 | **Name** | Michael Winkler  |
 | **Rollen:** | devops engineer, maven / git migrationen, dev coaching  |
-| **Vertragsform** | Deutschland: Dienstleistungsvertrag ("freelancer")  Weltweit: Beauftragung via metafence.io |
+| **Vertragsform** | Schweiz: Payroll, Rest der Welt: Beauftragung via metafence.io |
 | **master skills** | ansible, docker, git, maven, linux, jee  |
 | **Mantren** | wenn das Leben dir Zitronen gibt, mach Limonade draus |
-| **Charakter** | team player, spina minded, focused, well plated |
+| **Charakter** | team player, focused, well plated |
 | | |
 
 Abweichungen in Einzelfällen auf Nachfrage oder per Zufall
 
 # Operational Areas #
 
-| **Worldwide** |   |
+
+| **Worldwide** |  |
 | | |
 
 [Ether](https://de.wikipedia.org/wiki/Ethereum) and [Bitcoin](https://de.wikipedia.org/wiki/Bitcoin) accepted
