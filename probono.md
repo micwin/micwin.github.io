@@ -208,6 +208,20 @@ Das Projekt ist bei weitem nicht fertig und wurde leider schon weitestgehend, in
 neuen Entwicklungen des JDK überholt. Ich denke ich werde das Thema zwar aus reinem Interesse mal weiterführen, 
 denke aber meine Bemühungen sind eher akademischer Natur und werden wohl keine Verbreitung oder Anwendung finden.
 
-## open space
+## verspielt: chance2 (2004-2006), open space (2012-2014)
 
+Hatte ich schon erwähnt dass ich Wicket-Fan war? Nun, ich habe sogar ein Spiel mit Wicket programmiert: [open space](https://github.com/micwin/open-space).
 
+Entstanden ist open-space aus dem Verlangen heraus, mein erstes Computerspiel, chance2-online, upzugraden; 
+das hatte ich 2004  mit jsp entwickelt; das war eine Katastrophe, darum wechselte ich dazwischen auf struts, dann wurde 
+alles nur noch schlimmer; bis zu dem Punkt wo es einfach unwartbar wurde. 2006 schaltgete ich dann den letzten Server ab 
+und chance2 war tot. 
+
+Der Server jedoch steht imme rnoch in meinem Keller, ich kann mich einfach nicht davon trennen. Aber wie war es glorreich! 
+Ich hatte zeitweilig um die 100 User. chance2 war ein Browser-bassiertes  Mass Multiplayer Online Strategy Game, 
+mit frei konfigurierbaren Schiffstypen, und weiteren, atemberaubenden Ideen. Ich hatte sogar eine Designerin beauftragt, 
+die mir Postkarten erstellte und druckte. Und das wollte ich mit open space wieder aufleben lassen. Aber dieses mal 
+richtig!
+
+Tja, was soll ich sagen. Wicket-Anwendungen lassen sich schwer warten, und Open-Space war keine Single-Page-Anwendung. 
+Somit starb open-space auch wieder. Der letzte Commit datiert auf den 1. Februar 2014.
