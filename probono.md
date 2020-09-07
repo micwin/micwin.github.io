@@ -54,7 +54,7 @@ entwickelt:
 - da wo bash läuft, läuft auch clici; also auch bei dir auf der lokalen Maschine, in der cygwin-Box, 
 wenns denn sein muss, oder in einem Docker container
 - du musst clici nicht installieren (obwohl clici dich dabei unterstützt), es gibt keine Abhängigkeiten 
-ausser bash und which, und es ist lediglich ~ 80kb gross
+ausser bash und which, und es ist lediglich ~ 8kb gross
 - kooperiert mit jedem CI-Server
 - dead simple
 - zur Not kannst du auch python verwenden
