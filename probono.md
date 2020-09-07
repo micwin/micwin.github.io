@@ -3,6 +3,9 @@ layout: page
 title: Pro Bono
 permalink: /probono/
 ---
+
+{:toc}
+
 Hin und wieder kristallisiert sich in meiner täglichen Arbeit 
 ein Problem heraus, das sich mit Software lösen lässt. Dann setze 
 ich mich hin und code einfach was um exakt dieses Problem zu lösen.
