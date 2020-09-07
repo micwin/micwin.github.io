@@ -62,7 +62,34 @@ ausser bash und which, und es ist lediglich ~ 8kb gross
 
 Interessiert? Hier nochmal  der Link zur Homepage: [clici](https://metafence.gitlab.io/clici/)
 
-## ticino a.k.a. tinEvents
+## ssh-relais (2017)
+
+Und irgendwann hatte ich auf einem Rechner mal Zugriff auf Docker, aber keine Möglichkeit, einen SSH-Demon zu installieren. 
+Will sagen - ich musste mich per RDP auf einen Terminal Server einwählen, von dem aus es dann per Telnet(!) und ohne 
+Root-Rechte weiterging. Grausig.
+
+Also baute ich mir ein [docker image](https://github.com/micwin/ssh-relais) und veröffentlichte es auf 
+[docker hub](https://hub.docker.com/repository/docker/outpost/ssh-relais) und was soll ich sagen - das ist das bisher 
+bei weitem Nützlichste meiner Projekte gewesen. Es ist sogar so, dass ich ohne dieses Know-How ein sehr profitables, 
+anderes Projekt gar nicht hätte abwickeln können!
+
+Man kann das Image für so viele Dinge benutzen:
+
+- Ad-hoc Jump Hosts! Das ist der bei weitem häufigste Einsatzzweck, und dafür habe ich das Image ja auch erschaffen. 
+Also eine Art "Brücke" zwischen zwei eigentlich nicht miteinander verbundenen Systemen
+
+- Ad-hoc X-Hosts! Du kannst tatsächlich deine gesamte X11-Kommunikation durch das ssh-relais redirecten. Sehr nützlich 
+in einem Projekt, in dem es darum ging, den Build-Prozess einer tcl/tk-basierten GUI in einen Container zu verschieben.
+Der ssh-relais wurde als daemon gestartet, der build-Prozess wurde dann per ssh -XC gestartet. Auf dem 
+Bildschirm des Entwicklers/Testers erschien die GUI des Compilats, bereit für Tests. Das hat überraschend gut 
+funktioniert. 
+
+- wenn man die Home-Directories des ssh-relais im tmpfs des Docker Hosts platziert, hat man eine super sichere 
+bash-shell, die sofort allen content verliert sobald jemand mit dem Container rumspielt.
+
+Schaus dir an, es ist sehr praktisch.
+
+## ticino events a.k.a. tinEvents (2010 - 2015)
 
 Ja, ich gestehe, ich war mal ein Wicket-Fan. Wicket, das war ein Web-Framework vergleichbar mit react oder jsf,
 und aus meiner Sicht der beste Web-Framework in der Prä-Websocket-Welt. Ich weiss, ich weiss, Wicket hat sich auch 
@@ -76,13 +103,13 @@ So wurde es jedenfalls angekündigt, oder vielleicht kam es bei mir auch nur so 
 Wicket-Events waren dann nämlich doch nicht so einfach und generisch: 
 
 - man musste eine Interface-Klasse erstellen, speziell für die Methodennamen der Sender und der Empfänger. D.h.  
-sowohl  der Sender als auch der  Empfänger mussten das Interface implementieren. 
+sowohl der Sender als auch der Empfänger mussten das Interface implementieren. 
 Dazu kam dann noch die Event-Klasse.
 
 - die Events konnten erst ab einem bestimmten Zeitpunkt im Lebenszyklus der 
 Wicket-Applikation empfangen werden. Will sagen: nicht während der Initialisierungsphase der Beans im 
-damals aufkommenden Spring-Framework. Ich konnte also keine "Createdx" und "Initialized"-Events 
-feuern und empfangen um meine eigenen Komponenten zu konfigurieren.
+damals aufkommenden Spring-Framework. Ich konnte also keine "Created" und "Initialized"-Events 
+feuern und empfangen um meine eigenen Komponenten on-the-fly zu konfigurieren.
 
 - die Events wurden nicht im Cluster verteilt. Wenn deine Wicket-Anwendung also in einem JEE-Cluster 
 betrieben wurde, blieben die Events lokal.
@@ -128,15 +155,59 @@ Kapselung. Man kann also sensitive Concerns in dedizierten EventScopes kapseln, 
 Events über eine Art  "globalen EventScope" gehandhabt werden können.
 
 - ticino hat keine dedizierten Event-Klassen,  Superklassen oder Abstrakt-Klassen von denen 
-abgeleitet werdne muss. Wie oben erwähnt können alle, bereits bestehende Klassen als Event-Klassen 
+abgeleitet werdne muss. Wie oben erwähnt können alle bereits bestehende Klassen als Event-Klassen 
 verwendet werden und sogar Primitive und Lambdas. Deshalb kann in den Event-Klassen jede Information 
-einprogrammiert  werden, die Sender, Empfänger und/oder Betreiber interessieren. 
+einprogrammiert  werden, die Sender, Empfänger und/oder Betreiber interessieren.
  
 - ticino-events können synchron und asynchron abgesetzt werden. Im Falle der asynchronen 
 Verarbeitung kann bestimmt werden, ob die Empfänger seriell oder parallel aktiviert werden. 
 
-ticino events finden sich in  
+ticino events finden sich in der 
 [maven central](https://search.maven.org/artifact/net.micwin.ticino/ticino-events/0.3.6/jar), die Dokumentation 
-befindet sich [hier](http://micwin.github.io/ticino/ticino-events/index.html), das Rep [hier](https://github.com/micwin/ticino)
+befindet sich [hier](http://micwin.github.io/ticino/ticino-events/index.html), das Repo [hier](https://github.com/micwin/ticino)
 
-Leiderleider ist die Spring-Anbindung aber nicht sooo stabil wie ich das mir wünsche.
+Leiderleider ist die Spring-Anbindung aber nicht sooo stabil wie ich das mir wünsche, aber ich habe mir schon 
+vorgenommen, in einem Moment der Muße mach ich ticino Events perfekt. 
+
+## ticino context (2015 und später)
+
+Als ich mit dem minimalistischen Ansatz angefangen hatte, hatte ich natürlich Blut geleckt. Da war noch ein anderes Problem, 
+das mich an Java genervt hat: die Collections.
+
+Kann mir bitte einer sagen, warum bei Java immer so getan wird, als ob alles mit allem kompatibel ist - nur um es dann 
+im entscheidenden Fall doch nicht zu sein? Warum bitte müssen ArrayLists und HashSets dasselbe Interface bedienen, es 
+ist aber nicht möglich, einen ArrayList mnit einem Array zu initisalisieren? ? ArrayLists und HashSets sind schon vom 
+Konzept her komplett unterschiedliche Dinge wobei sich Arrays und ArrayLists nur durch die Kapselung und ein, zwei 
+Details unterscheiden! 
+
+Also gut, dachte ich mir - pronbieren wir das mal. Was hatte ich für Anforderungen?
+
+- keine Gemeinsamkeiten heucheln wo es keine gibt.
+
+- Eigenschaften der Container sollten über Funktionen abfragbar sein
+
+- Natural fits unterstützen, also z.B. Arrays leicht in ArrayLists (und umgekehrt) umwandelbar machen.
+
+- bessere Unterstützung von Generics
+
+Et voilà - [ticino context](http://micwin.github.io/ticino/ticino-context/index.html) - wobei,... geniesst das bitte 
+mit Vorsicht, die Dokumentation ist crappy. 
+Den Source Code findet ihr [hier](https://github.com/micwin/ticino/tree/develop/context/src/main/java/net/micwin/ticino/context), 
+auf maven central ist das Projekt [hier](https://search.maven.org/artifact/net.micwin.ticino/ticino-context/0.3.6/jar).
+ 
+Die Highlights:
+
+- Element-Lookup mit Lambda
+
+- Element-Validatoren, mit denen der Instanzierer des Containers sicherstellen kann, dass nur Elemente in den Container 
+gehen, die einem Kriterium entsprechen
+
+- Typsichere Unterscheidung von ReadOnly und ReadWrite-Containern
+
+Das Projekt ist bei weitem nicht fertig und wurde leider schon weitestgehend, in den ursprünglichen Ansprüchen, von den 
+neuen Entwicklungen des JDK überholt. Ich denke ich werde das Thema zwar aus reinem Interesse mal weiterführen, 
+denke aber meine Bemühungen sind eher akademischer Natur und werden wohl keine Verbreitung oder Anwendung finden.
+
+## open space
+
+
