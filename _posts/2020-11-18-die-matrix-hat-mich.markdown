@@ -42,7 +42,7 @@ folgende Anforderungen erfüllt:
 5. mit python skriptbar; d.h. es muss möglich sein, mittels python Nachrichten zu senden / zu empfangen / auszuwerten
 6. Kontrolliert von einer unabhängigen Non-Profit-Organisation, bei der sich jeder beteiligen kann.
 7. die Möglichkeit, selbst Knoten zu installieren ("on premises"), sodass es möglich ist, Chat-Räume nur lokal vorzuhalten.
-8. Standard-Funktionalitäten wie Datei-/Video-/Nachrichten-Versand, Telefonanrufe und Video-Calls sind bei jedem CLient zwingend vorhanden
+8. Standard-Funktionalitäten wie Datei-/Video-/Nachrichten-Versand, Telefonanrufe und Video-Calls sind bei jedem Client zwingend vorhanden
 9. Der Wechsel von Chaträumen von einem Superknoten zum anderen, oder von einem Admin zum anderen, sind leicht möglich.
 
 So, und jetzt kommen wir zur ersten Liste an Produkten zurück. Die meisten sind entweder zentralisiert bei einem 
