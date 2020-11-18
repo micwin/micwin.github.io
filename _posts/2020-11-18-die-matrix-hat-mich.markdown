@@ -54,4 +54,4 @@ Und genau da kommt eben matrix.org ins Spiel. matrix.org ist die Summe der Erfah
 WhatsApp, Telegram, Signal und Threema gesammelt wurden und erfüllt jeden der Punkte aus meiner Liste, mehr oder wenig 
 gut.
 
-Und darum möchte ich langfrist auf matrix.org wechseln und bin ab sofort unter @micwin:matrix.org erreichbar.
+Und darum möchte ich langfrist auf matrix.org wechseln und bin ab sofort unter [@micwin:matrix.org]: https://matrix.to/#/@micwin:matrix.org erreichbar.
