@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "So etwas wie Sicherheit gibt es nicht."
-date:   2020-11-18 12:02 +0200
+date:   2021-01-29 00:00 +0200
 categories: meta
 ---
 Zugegeben, wir reden von IT-Sicherheit, also die Sicherheit, dass meine Daten, meine Computer oder ganz allgemein mein Netz sicher sind oder, wie auch oft formuliert, *hinreichend* sicher.
@@ -10,7 +10,7 @@ Und den Gedanken könnt ihr gleich mal streichen. Warum?
 
 ## Flak vs. Point Defense
 
-Der Stoßrichtung meiner Argumentation ist die Unmöglichkeit, [Angriffsvektoren] (https://de.wikipedia.org/wiki/Angriffsvektor) vorherzusagen, oder auch nur hinreichend einzuschränken. Es gibt einfach zu viele  Variablen und mögliche Motivationen, sich genau euer Netz, euren Computer, euer Handy herauszusuchen. Lasst mich das anhand meines Lieblingsbeispiels _WhatsApp_ erläutern.
+Der Stoßrichtung meiner Argumentation ist die Unmöglichkeit, [Angriffsvektoren](https://de.wikipedia.org/wiki/Angriffsvektor) vorherzusagen, oder auch nur hinreichend einzuschränken. Es gibt einfach zu viele  Variablen und mögliche Motivationen, sich genau euer Netz, euren Computer, euer Handy herauszusuchen. Lasst mich das anhand meines Lieblingsbeispiels _WhatsApp_ erläutern.
 
 *WhatsApp* ist ein sogenannter Messenger, d.h. ein Tool, um es einer Person zu erlauben, Nachrichten zu einer anderen Person zu schicken in einer einigermassen vertraulichen Umgebung. Der letzte Halbsatz ist wichtig, denn genau darin besteht der Unterschied zwischen WhatsApp und z.B. IRC, oder Twitter: Bei WhatsApp kann nicht jeder mitlesen, bei IRC/Twitter grundsätzlich schon. Wieso genau diese Sache dann letztendlich unsere Rettung ist, erkläre ich weiter unten.
 
@@ -22,9 +22,9 @@ Klar, niemand will, dass intime Liebesbotschaften im Internet landen. Und ja, Wh
 
 Zurück zu den Angriffsvektoren. Bei WhatsApp gibt es mindestens folgende Angriffsvektoren:
 
-## Angriffsavektoren
+## Angriffsvektoren
 
-1) Das Endggerät. Jemand könnte auf deinem oder dem Gerät eines Kontaktes  Schadsoftware installieren und mitlesen was du bei WhatsApp so eingibst. Und es sind schon viele Apps bekannt, die mit einer [Backdoor](https://de.wikipedia.org/wiki/Backdoor)
+1) Das Endggerät. Jemand könnte auf deinem oder dem Gerät eines Kontaktes  Schadsoftware installieren und mitlesen was du bei WhatsApp so eingibst. Und es sind schon viele Apps bekannt, die mit einer [Backdoor](https://de.wikipedia.org/wiki/Backdoor) ausgestattet sind.
 
 2) Der App-Shop. Auch Google ist nicht perfekt und so schlüpft immer mal wieder eine Schadsoftware in den App Store bei Google und Apple. Interessante wäre einmal eine Aussage o.g. Firmen, wie oft sie eigentlich Software mit Namen ablehnen, die so ähnlich wie WhatsApp klingen, z.B. WhatApp, WahtsApp, WhatsAp oder solche, die so tun als seien sie offiziell von WhatsApp herausgebracht, z.B. WhatsApp Companion, WhatsApp Tool, WhatsHome.
 
