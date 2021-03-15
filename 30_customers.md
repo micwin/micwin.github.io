@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Kunden
+title: Kundenstimmen
 permalink: /customers/
 ---
 
