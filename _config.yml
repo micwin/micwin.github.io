@@ -1,22 +1,15 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely need to edit after that.
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'jekyll serve'. If you change this file, please restart the server process.
-
 # Site settings
-title: Dev und DevOps und Ops
+title: Automation, Dev und Ops (und DevOps)
 email: michael.winkler@gmx.de
-description: > # this means to ignore newlines until "baseurl:"
-  ansible, ant, devops, git, gitlab, gitlab-ci, j2ee, java, javaee, jee, jenkins, maven
+description: > 
+  ansible, aure, devops, git, gitlab, gitlab-ci, helm, j2ee, java, javaee, jee, jenkins, 
+  kubernetes, maven
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://micwin.github.io" # the base hostname & protocol for your site
 twitter_username: micwin2
 github_username:  micwin
 linkedin_username: micwin
 telegram_username: micwin
-
 
 # Build settings
 markdown: kramdown
