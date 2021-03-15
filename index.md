@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: page
 ---
 
 # Sehr geehrter Gast! #
@@ -12,7 +12,7 @@ Meinen CV als PDF und Word-Dokument finden Sie [hier](downloads).
 
 Ich bin aktuell verfügbar.
 
-mit freundlichen Grüssen,
+Mit Freundlichen Grüssen,
 
 _Ihr Michael Winkler_
 
