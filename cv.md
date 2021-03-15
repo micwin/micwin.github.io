@@ -23,8 +23,8 @@ Abweichungen in Einzelfällen auf Nachfrage oder per Zufall
 
 # Operational Areas #
 
-
 | **Worldwide** |  |
 | | |
 
-[Ether](https://de.wikipedia.org/wiki/Ethereum) and [Bitcoin](https://de.wikipedia.org/wiki/Bitcoin) accepted
+[Monero](https://en.wikipedia.org/wiki/Monero), [Ether](https://en.wikipedia.org/wiki/Ethereum) and [Bitcoin](https://en.wikipedia.org/wiki/Bitcoin) accepted (in that preferance)
+
