@@ -2,10 +2,9 @@
 title: Automation, Dev und Ops (und DevOps)
 email: michael.winkler@gmx.de
 description: > 
-  ansible, aure, devops, git, gitlab, gitlab-ci, helm, j2ee, java, javaee, jee, jenkins, 
-  kubernetes, maven
+  Ansible, Azure, DevOps, Git, GitLab, GitLab-CI, Helm, Java, JEE, Jenkins, Kubernetes, Maven
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://micwin.github.io" # the base hostname & protocol for your site
+url: "https://micwin.github.io"
 twitter_username: micwin2
 github_username:  micwin
 linkedin_username: micwin

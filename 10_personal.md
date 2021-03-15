@@ -17,10 +17,36 @@ permalink: /personal/
 
 Abweichungen in Einzelfällen auf Nachfrage oder per Zufall
 
+[Monero](https://en.wikipedia.org/wiki/Monero) preferred, [Ether](https://en.wikipedia.org/wiki/Ethereum) and [Bitcoin](https://en.wikipedia.org/wiki/Bitcoin) accepted as well
+
 # Operational Areas #
 
 | **Worldwide** |  |
 | | |
 
-[Monero](https://en.wikipedia.org/wiki/Monero), [Ether](https://en.wikipedia.org/wiki/Ethereum) and [Bitcoin](https://en.wikipedia.org/wiki/Bitcoin) accepted (in that preferance)
+# Maximal-Performance-Projekt #
 
+- GitLab samt CI schon da oder noch zu installieren
+- Linux-Server mit Terraform / Ansible instanziieren
+- mit Ansible provisionieren
+- bestehende Spring-Boot-Apps mit Maven bauen, in Docker-Images einpacken und mit docker-compose/Kubernetes deployen
+- Glue-Code schreiben
+
+# Was ich lernen will #
+
+- OpenShift
+- Alle Arten von CI-Servern (Travis, Drone,...)
+- Machine Learning
+- Data Mining
+
+# Warum ich Freiberufler bin #
+
+- immer up-to-date mit der Technik, Finger nah am Puls der Zeit
+- neue Länder, neue Sitten
+
+# Warum Festanstellung in der Schweiz #
+
+- ich bin Schweizer Staatsbürger
+- mir gefällt die schweizer Gelassenheit
+- Qualität geht vor Geld
+- die Berge, der Schnee, die Seen (u de Wii u 's Fondue)
