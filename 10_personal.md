@@ -7,11 +7,12 @@ permalink: /personal/
 # Zur Person #
 
 | **Name** | Michael Winkler  |
-| **Rollen:** | devops engineer, maven / git migrationen, dev coaching  |
+| **Rollen:** | Automation And Devops Engineer, Maven / Git Migrations, Dev Coaching  |
 | **Vertragsform** | Schweiz: Payroll, Deutschland: Freelancer, Rest der Welt: Beauftragung via metafence.io |
-| **master skills** | ansible, bash, docker, git, jee, kubernetes, linux, maven, python  |
-| **Mantren** | wenn das Leben dir Zitronen gibt, mach Limonade draus |
-| **Charakter** | team player, focused, well plated |
+| **Skills** | Ansible, Azure, Bash, Docker, Git, GitLab, Helm, JEE, Kubernetes, Linux, Maven, Python  |
+| **Mantren** | Zuerst Erfolge, dann Schönheit |
+| **Charakter** | Kommunikativ, Verständnisvoll, einigermassen geduldig |
+| **Sprachen** | Muttersprache: Deutsch und Schweizerdeutsch gleichermassen, Flüssig: Englisch |
 | | |
 
 Abweichungen in Einzelfällen auf Nachfrage oder per Zufall
