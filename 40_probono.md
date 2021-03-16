@@ -4,6 +4,8 @@ title: Pro Bono
 permalink: /probono/
 ---
 
+| [clici](#clici) | [backup_tools](#backup_tools)  | [ssh-relais](#ssh-relais) | [ticino events](#ticino-events) | [ticino context](#ticino-context) | [chance2 / open space](#verspielt) |
+
 Hin und wieder kristallisiert sich in meiner täglichen Arbeit 
 ein Problem heraus, das sich mit Software lösen lässt. Dann setze 
 ich mich hin und code einfach was um exakt dieses Problem zu lösen.
@@ -16,7 +18,7 @@ abgeschlossen.
 
 Dies hier ist also der Platz um diese meine Dinge unterzubringen.
 
-## clici (ab 2020)
+## clici
 
 Ich arbeite nun schon einige Zeit als DevOps-Ingenieur; das bedeutet, 
 ich erstelle und warte Skripte, die Software automatisch baut, testet 
@@ -46,7 +48,33 @@ entwickelt:
 
 Interessiert? Hier nochmal  der Link zur Homepage: [clici](https://metafence.gitlab.io/clici/)
 
-## ssh-relais (2017)
+## backup_tools
+
+Die meisten Backup-Programme haben den einen oder anderen Nachteil: manche sind nicht open source, manche sind so gross dass du ein Studium brauchst um sie zu verstehen, manche haben den Anspruch die Welt zu retten und manche, tja, was soll ich sagen, brauchen ein voll ausgebautes Betriebssystem um ein Anderes zu retten.
+
+Was mir gefehlt hat war ein einfaches Tool, das ich sehr komfortabel von der Kommandozeile bedienen kann und Datei- bzw verzeichnisbezogene  Backups macht. Die noch in ein ordentlich benanntes, automatisch generiertes Verzeichnis schiebt - und deren Restore auch läuft, wenn du nur eine buzybox, oder eine andere Minimalshell zur Verfügung hast (weil es genau das ist wenn du deine Linux-Workstation zerschossen hast).
+
+So sind die [backup_tools](https://gitlab.com/metafence/backup-tools) entstanden.
+
+- backup aufsetzen: 
+
+> ./setup_backup_dir.sh backup_verzeichnis
+
+- zu archivierende Dateien / Verzeichnisse auflisten:
+
+> vim backup_verzeichnis/files.lst
+
+- backup ausführen: 
+
+> backup_verzeichnis/backup.sh
+
+- restore: 
+
+> backup_verzeichnis/20210312/restore.sh
+
+Wenn du restore.sh mit sudo aufrufst, kannst du sogar System-Verzeichnisse wieder herstellen. Ich sichere so /etc und /boot meines Laptops - sicher ist sicher.
+
+## ssh-relais
 
 Und irgendwann hatte ich auf einem Rechner mal Zugriff auf Docker, aber keine Möglichkeit, einen SSH-Demon zu installieren. 
 Will sagen - ich musste mich per RDP auf einen Terminal Server einwählen, von dem aus es dann per Telnet(!) und ohne Root-Rechte weiterging. Grausig.
@@ -69,9 +97,9 @@ funktioniert.
 - wenn man die Home-Directories des ssh-relais im tmpfs des Docker Hosts platziert, hat man eine super sichere 
 bash-shell, die sofort allen content verliert sobald jemand mit dem Container rumspielt.
 
-Schaus dir an, es ist sehr praktisch.
+Schaus dir an, es ist sehr praktisch : [Sourcen](https://github.com/micwin/ssh-relais), [auf Docker Hub](https://hub.docker.com/repository/docker/outpost/ssh-relais)
 
-## ticino events a.k.a. tinEvents (2010 - 2015)
+## ticino-events
 
 Ja, ich gestehe, ich war mal ein Wicket-Fan. Wicket, das war ein Web-Framework vergleichbar mit react oder jsf,
 und aus meiner Sicht der beste Web-Framework in der Prä-Websocket-Welt. Ich weiss, ich weiss, Wicket hat sich auch 
@@ -151,7 +179,7 @@ befindet sich [hier](http://micwin.github.io/ticino/ticino-events/index.html), d
 Leiderleider ist die Spring-Anbindung aber nicht sooo stabil wie ich das mir wünsche, aber ich habe mir schon 
 vorgenommen, in einem Moment der Muße mach ich ticino Events perfekt. 
 
-## ticino context (2015 und später)
+## ticino-context
 
 Als ich mit dem minimalistischen Ansatz angefangen hatte, hatte ich natürlich Blut geleckt. Da war noch ein anderes Problem, 
 das mich an Java genervt hat: die Collections.
@@ -190,7 +218,7 @@ Das Projekt ist bei weitem nicht fertig und wurde leider schon weitestgehend, in
 neuen Entwicklungen des JDK überholt. Ich denke ich werde das Thema zwar aus reinem Interesse mal weiterführen, 
 denke aber meine Bemühungen sind eher akademischer Natur und werden wohl keine Verbreitung oder Anwendung finden.
 
-## verspielt: chance2 (2004-2006), open space (2012-2014)
+## verspielt
 
 Hatte ich schon erwähnt dass ich Wicket-Fan war? Nun, ich habe sogar ein Spiel mit Wicket programmiert: [open space](https://github.com/micwin/open-space).
 
