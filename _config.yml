@@ -5,7 +5,6 @@ description: >
   Ansible, Azure, DevOps, Git, GitLab, GitLab-CI, Helm, Java, JEE, Jenkins, Kubernetes, Maven
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://micwin.github.io"
-theme: jekyll-theme-merlot
 twitter_username: micwin2
 github_username:  micwin
 linkedin_username: micwin
@@ -13,3 +12,4 @@ telegram_username: micwin
 
 # Build settings
 markdown: kramdown
+theme: jekyll-theme-merlot
