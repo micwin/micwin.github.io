@@ -12,4 +12,4 @@ telegram_username: micwin
 
 # Build settings
 markdown: kramdown
-theme: jekyll-theme-merlot
+theme: merlot
