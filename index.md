@@ -5,9 +5,9 @@ title: ...
 
 # Sehr geehrter Gast! #
 
-Willkommen auf meiner Homepage; schön dass Sie hergefunden haben! 
+__Sie suchen einen Automation- und DevOps Engineer?__
 
-Ich arbeite als Automation und DevOps Engineer.
+Ich bin gespannt was ich für Sie tun kann.
 
 Meinen __CV__ als PDF und Word-Dokument finden Sie [hier](downloads).
 
