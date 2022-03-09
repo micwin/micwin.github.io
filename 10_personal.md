@@ -4,7 +4,6 @@ title: Personalien
 permalink: /personal/
 ---
 
-Eines vorneweg - ich bin jetzt frestangestellt; kein Interesse mehr an sonstigen Projekten, mögen (Ss)ie auch noch so sexy sein ;)
 # Zur Person #
 
 | **Name** | Michael Winkler  |
