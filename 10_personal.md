@@ -39,13 +39,14 @@ Abweichungen in Einzelfällen auf Nachfrage oder per Zufall
 - Machine Learning
 - Data Mining
 
-# Warum ich Freiberufler war #
+# Warum ich Freiberufler bin #
 
 - immer up-to-date mit der Technik, Finger nah am Puls der Zeit
 - neue Länder, neue Sitten
 
-# Warum ich nun festangestellt bin #
+# Warum Festanstellung in der Schweiz #
 
-- soziales Umfeld
-- langlebige Projekte
-- work-life-balance
+- ich bin Schweizer Staatsbürger
+- mir gefällt die schweizer Gelassenheit
+- Qualität geht vor Geld
+- die Berge, der Schnee, die Seen (u de Wii u 's Fondue)

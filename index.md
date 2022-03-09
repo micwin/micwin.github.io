@@ -5,10 +5,13 @@ title: ...
 
 # Sehr geehrter Gast! #
 
-das Wichtigste zuerst: ich bin seit dem 1. Oktober 2021 nicht mehr als Freiberufler verfügbar, da ich eine sehr erfüllende Festanstellung bei einer renomierten, lokalen Firma im Münchner Raum angenommen habe.
+__Sie suchen einen Automation- und DevOps Engineer?__
 
-Bitte senden Sie mir keine Anfragen für Projekte oder Festanstellungen zu, da mein neuer Arbeitgeber Nebenbeschäftigungen kategorisch ausschließt (und ich das auch richtig so finde)
+Ich bin gespannt was ich für Sie tun kann.
 
+Meinen __CV__ als PDF und Word-Dokument finden Sie [hier](downloads).
+
+Ich bin aktuell verfügbar.
 
 Mit Freundlichen Grüssen,
 

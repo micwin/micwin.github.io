@@ -136,7 +136,7 @@ Kurz und gut, er musste so einfach zu bedienen sein, dass er für jeden Sch**ssd
 
 Tja, und das habe ich geschafft. 
 
-Darf ich vorstellen: [ticino events](https://micwin.github.io/ticino/ticino-events/index.html)
+Darf ich vorstellen: [ticino events](http://micwin.github.io/ticino/ticino-events/index.html)
 
 Die "coolen Features" sind:
 
@@ -146,7 +146,7 @@ Die "coolen Features" sind:
 
 - Sender und Empfänger werden in den __EventScopes__ zusammengebracht; diese dienen auch gleich als Kapselung. Man kann also sensitive Concerns in dedizierten EventScopes kapseln, während Allerwelt-Events über eine Art  "globalen EventScope" gehandhabt werden können.
 
-- ticino hat keine dedizierten Event-Klassen, Superklassen oder Abstrakt-Klassen von denen abgeleitet werdne muss. Wie oben erwähnt können alle bereits bestehende Klassen als Event-Klassen verwendet werden und sogar Primitive und Lambdas. Deshalb kann in den Event-Klassen jede Information einprogrammiert  werden, die Sender, Empfänger und/oder Betreiber interessieren.
+- ticino hat keine dedizierten Event-Klassen,  Superklassen oder Abstrakt-Klassen von denen abgeleitet werdne muss. Wie oben erwähnt können alle bereits bestehende Klassen als Event-Klassen verwendet werden und sogar Primitive und Lambdas. Deshalb kann in den Event-Klassen jede Information einprogrammiert  werden, die Sender, Empfänger und/oder Betreiber interessieren.
  
 - ticino-events können synchron und asynchron abgesetzt werden. Im Falle der asynchronen Verarbeitung kann bestimmt werden, ob die Empfänger seriell oder parallel aktiviert werden. 
 
