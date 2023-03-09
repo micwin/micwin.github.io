@@ -47,6 +47,6 @@ Abweichungen in Einzelfällen auf Nachfrage oder per Zufall
 # Warum Festanstellung in der Schweiz #
 
 - ich bin Schweizer Staatsbürger
-- mir gefällt die schweizer Gelassenheit
+- mir gefällt die Kombination aus schweizer Gelassenheit und Ernsthaftigkeit
 - Qualität geht vor Geld
 - die Berge, der Schnee, die Seen (u de Wii u 's Fondue)
