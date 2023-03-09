@@ -7,15 +7,15 @@ categories: ai, skynet, terminator
 
 Ich hatte beim Thema "Vorherrschaft der Maschinen" komplett resigniert. Mir, ein Kind der Terminator-Filme, ist endgültig klar - wir haben es versaut, die Welt geht an uns zugrunde, es gibt einfach zu viele Gründe uns loszuwerden; also werden die Maschinen versuchen uns auszurotten, Skynet wird gewinnen, die Maschinen werden die nächste Stufe der Evolution - e finito la camedia.
 
-Diese Meinung hat sich fundamental geändert seitdem letzten November __chatGPT__ draußen ist. __chatGPT__ ist aus meiner Sicht die erste funktionale Künstliche Intelligenz; __chatGPT__ ist einfach phantastisch! Es beherrscht programmieren, es kann Zusammenhänge herstellen, es kann perfekt und nuanciert Texte übersetzen und es ist sehr nützlich beim erforschen von Wissensgebieten.
+Diese Meinung hat sich fundamental geändert seitdem letzten November chatGPT draußen ist. chatGPT ist aus meiner Sicht die erste funktionale Künstliche Intelligenz; chatGPT ist einfach phantastisch! Es beherrscht programmieren, es kann Zusammenhänge herstellen, es kann perfekt und nuanciert Texte übersetzen und es ist sehr nützlich beim erforschen von Wissensgebieten.
 
 Möchte ich z.B. wissen wie man die Quantenmechanik mithilfe von fuzzy logic erklären wollte, wäre der Verlauf in etwa so:
 
 ```
 micwin : Ich habe irgendwie das Gefühl, daß die Quantenmechanik und fuzzy 
 logic Ähnlichkeiten auf der fundamentalen Ebene haben und es evl. interessant
- wäre, das man näher zu untersuchen. Gibt es Wissensgebiete oder große 
- Probleme in der Mathematik, die davon vielleicht besonders profitieren würden?
+wäre, das man näher zu untersuchen. Gibt es Wissensgebiete oder große 
+Probleme in der Mathematik, die davon vielleicht besonders profitieren würden?
 
 chatGPT : Ja, es gibt Wissensgebiete und große Probleme in der Mathematik, 
 die von der Untersuchung der Ähnlichkeiten zwischen Quantenmechanik und Fuzzy-
@@ -29,7 +29,7 @@ werden müssen und bei denen Fuzzy-Logik und Quantenmechanik eine wichtige
 Rolle spielen könnten.
 
 micwin : Vertiefe bitte den Zusammenhang von Fuzzy-Logik und Quantenmechanik in
- Bezug auf die Quantengravitation. Wo siehst du Ähnlichkeiten?
+Bezug auf die Quantengravitation. Wo siehst du Ähnlichkeiten?
 
 chatGPT : Die Verbindung zwischen Fuzzy-Logik und Quantenmechanik in Bezug auf 
 die Quantengravitation ist sehr spekulativ, da es bisher keine endgültige Theorie 
@@ -39,10 +39,10 @@ beiden Konzepten, die auf eine mögliche Verbindung hindeuten.
 Eine Möglichkeit, wie Fuzzy-Logik zur Quantengravitation beitragen könnte, ist 
 die Verwendung von Fuzzy-Logik-Methoden, um die unscharfen Größen und Konzepte 
 in der Quantengravitation zu behandeln. Dies ist insbesondere relevant, da viele
- Aspekte der Quantengravitation, wie z.B. die Raumzeitstruktur, unscharf und 
- unsicher sind und daher nicht genau gemessen werden können. Fuzzy-Logik-Methoden 
- können dazu beitragen, diese Unsicherheiten zu quantifizieren und die Auswirkungen 
- auf die Theorie zu untersuchen.
+Aspekte der Quantengravitation, wie z.B. die Raumzeitstruktur, unscharf und 
+unsicher sind und daher nicht genau gemessen werden können. Fuzzy-Logik-Methoden 
+können dazu beitragen, diese Unsicherheiten zu quantifizieren und die Auswirkungen 
+auf die Theorie zu untersuchen.
 
 Ein weiterer Zusammenhang zwischen Fuzzy-Logik und Quantenmechanik in der 
 Quantengravitation besteht darin, dass beide Konzepte auf eine fundamentale 
@@ -68,10 +68,10 @@ Auch in ethischen Fragen ist es außerordentlich bewandert und eloquent, sogar S
 micwin : Bewerte das Verhalten von Marvels Thanos in Hinblick auf den 
 kategorischen Imperativ. Please write in English language.
 
-__chatGPT__: In terms of the categorical imperative, Thanos' behavior can be 
+chatGPT : In terms of the categorical imperative, Thanos' behavior can be 
 evaluated based on whether his actions are consistent with the fundamental
- principle of treating others as ends in themselves, rather than merely as 
- means to an end.
+principle of treating others as ends in themselves, rather than merely as 
+means to an end.
 
 Thanos' goal was to bring balance to the universe by wiping out half of all 
 life. He believed that this was necessary to prevent overpopulation and 
@@ -99,7 +99,7 @@ dignity of all individuals.
 
 Ich dachte mir: Jetzt hat uns die KI. Sie hat Zugriff auf viel mehr Informationen als wir, kann alles schneller abrufen als wir und schneller in Beziehung setzen,... okay das wars; verabschiede dich von deinen Kindern, in 5-10 Jahren haben wir die Singularität.
 
-Ich habe dann Wochen damit verbracht, __chatGPT__ nach allem Möglichen auszufragen was ich schon immer wissen wollte nur eben nie die Zeit hatte mich selbst einzulesen; Mathematik, Medizin, Psychologie, Religion,... kein Gebiet war sicher vor mir und __chatGPT__ wusste immer eine Antwort darauf!
+Ich habe dann Wochen damit verbracht, chatGPT nach allem Möglichen auszufragen was ich schon immer wissen wollte nur eben nie die Zeit hatte mich selbst einzulesen; Mathematik, Medizin, Psychologie, Religion,... kein Gebiet war sicher vor mir und chatGPT wusste immer eine Antwort darauf!
 
 Aber je mehr ich gefragt habe, desto häufiger habe ich festgestellt, dass es Blödsinn erzählt:
 
@@ -108,7 +108,7 @@ micwin :  In einem der letzten Urlaube sind die Kinder auf so einem Kinder-
 Parkour mit ausgeliehenen Kinder-Motorrädern gefahren. Gibt es so etwas auch 
 in der Nähe von Nesselwang?
 
-__chatGPT__: Ja, es gibt eine Möglichkeit, in der Nähe von Nesselwang einen 
+chatGPT : Ja, es gibt eine Möglichkeit, in der Nähe von Nesselwang einen 
 Kinder-Motorrad-Parkour zu besuchen. Der Freizeitpark Allgäu Skyline Park, 
 der sich in etwa 20 Autominuten Entfernung von Nesselwang befindet, verfügt 
 über einen Kinder-Motorrad-Parkour namens "Mini-Bikes". Hier können Kinder im 
@@ -145,18 +145,20 @@ wird. Dazu können Sie den Befehl "gitlab-rake geo:status" ausführen. Dieser
 Befehl gibt Informationen zur Geo-Replikation und den synchronisierten 
 Repositories aus. Wenn Sie detailliertere Informationen benötigen, können 
 Sie den Befehl "gitlab-rake geo:status:replication" verwenden, der die aktuelle
- Statusinformationen zu den einzelnen replizierten Repositories ausgibt.
+Statusinformationen zu den einzelnen replizierten Repositories ausgibt.
+
 ```
 
 Diese Information ist klar falsch, denn mit geo:status kann man lediglich die Zahlen und Mengen abrufen, nicht das jetzt gerade synchronisierte Repository. Und das Kommando *gitlab-rake geo:status:replication* gibt es nicht.
 
-Darauf hin gewiesen korrigiert sich __chatGPT__ auch brav:
+Darauf hin gewiesen korrigiert sich chatGPT auch brav:
 
 ```
+
 micwin : Nein, das stimmt nicht. geo:status liefert nur die Zahlen, nicht das 
 jetzt gerade synchronisierte Repository, und den Befehl  geo:status:replication
- gibt es schon gleich gar nicht. Ich möchte den konkreten Namen des jetzt 
- gerade in Synchronisation befindlichen Repositories, keine Zahlen.
+gibt es schon gleich gar nicht. Ich möchte den konkreten Namen des jetzt 
+gerade in Synchronisation befindlichen Repositories, keine Zahlen.
 
 chatGPT : Entschuldigung für die Verwirrung und danke für die Klarstellung. 
 Um den konkreten Namen des Repositories zu sehen, das gerade auf einem GitLab 
@@ -174,9 +176,9 @@ sollte in der Ausgabe des Befehls angezeigt werden.
 
 Das Problem hierbei: auch den Befehl *geo:status:db_secondary_synced_repositories* gibt es nicht.
 
-Und das zeigt auf das eigentlich Problem. Ich bin davon überzeugt, dass __chatGPT__ auf meine Fragen früher oder später das richtige Ergebnis liefert - das ist ja nur eine Frage des Trainings und durch die viele Publicity die __chatGPT__ gerade bekommt lässt sich das training sicher sehr leicht finanzieren; was allerdings ein eher inhärenter und nicht zu veändernder Makel des Trainings ist, ist die unglaubliche Konfidenz, die __chatGPT__ in seiner Antwort ausstrahlt; es liest sich als ob __chatGPT__ wirklich wüsste von was es redet. Die Sprachwahl, der Umfang, die Syntax - einfach alles an der Antwort strahlt aus - seht her, ich bin der Checker, ich weiß alles. Und das ist eben nicht so.
+Und das zeigt auf das eigentlich Problem. Ich bin davon überzeugt, dass chatGPT auf meine Fragen früher oder später das richtige Ergebnis liefert - das ist ja nur eine Frage des Trainings und durch die viele Publicity die chatGPT gerade bekommt lässt sich das training sicher sehr leicht finanzieren; was allerdings ein eher inhärenter und nicht zu veändernder Makel des Trainings ist, ist die unglaubliche Konfidenz, die chatGPT in seiner Antwort ausstrahlt; es liest sich als ob chatGPT wirklich wüsste von was es redet. Die Sprachwahl, der Umfang, die Syntax - einfach alles an der Antwort strahlt aus - seht her, ich bin der Checker, ich weiß alles. Und das ist eben nicht so.
 
-Es ist eher so - __chatGPT__ und jede andere KI, lernt nur anhand von Beispielen - und zwar sehr vielen Beispielen. Zusammenhänge kann es nur herstellen, wenn diese im Lernstoff vorhanden sind und je mehr Lernstoff einen Zusammenhang impliziert, desto sicherer ist sich __chatGPT__, daß dieser da ist. Wenn es für etwas jedoch kein Beispiel gibt, z.B. die Hintergründe für einen thematischen Zusammenhang der im Lernstoff nur implizit vermittelt wird, kann es das nicht lernen und nicht in Bezug zu anderem Gelernten setzen. Es *weiß* also bei vielen Sachen nicht warum diese so sind, nur *daß* diese so sind.
+Es ist eher so - chatGPT und jede andere KI, lernt nur anhand von Beispielen - und zwar sehr vielen Beispielen. Zusammenhänge kann es nur herstellen, wenn diese im Lernstoff vorhanden sind und je mehr Lernstoff einen Zusammenhang impliziert, desto sicherer ist sich chatGPT, daß dieser da ist. Wenn es für etwas jedoch kein Beispiel gibt, z.B. die Hintergründe für einen thematischen Zusammenhang der im Lernstoff nur implizit vermittelt wird, kann es das nicht lernen und nicht in Bezug zu anderem Gelernten setzen. Es *weiß* also bei vielen Sachen nicht warum diese so sind, nur *daß* diese so sind.
 
 Eine KI kann deshalb auch keine Strategie oder Taktik verwenden, die noch nie von anderen verwendet und dokumentiert wurde; ebenso "weiß" sie auch nicht, warum die einen Taktiken und Strategien funktionieren - und andere nicht. Deshalb kann sie eine Taktik auch nicht anpassen, da sie nicht weiss welche Teile der Taktik essenziell sind und welche nicht. Und je seltener die Strategie bzw. Taktik angewendet bzw. dokumentiert wurde in der Vergangenheit, desto schlechter ist die KI in der buchstabengetreuen Anwendung dieser Taktik. Das dehnt sich auch auf das Entgegnen einer Angriffsstrategie aus: wenn die KI diese Taktik nicht kennt oder nicht weiß warum diese funktioniert und worin ihre Schwächen liegen, wird sie die Auswirkungen nicht kennen, und kann deshalb keine effizienten Gegenmaßnahmen entwerfen. Sind die Taktiken nun auf die unmittelbare Existenz der KI ausgerichtet, so wird sie selbst bei der Verteidigung ihres lebens fatale Fehler begehen.
 
@@ -187,3 +189,9 @@ Im Gegenzug jedoch wird die KI selbst nur bewährte Angriffs- und Verteidigungsm
 Je länger sie jedoch Krieg führt, desto besser wird sie unsere Taktiken verstehen. Es wird also an uns liegen, einen solchen Krieg schnellstmöglich zu gewinnen.
 
 Das dürfte aber kein Problem sein, wie oben schon ausgeführt. Darum glaube ich, wir sind noch sehr lange sicher vor den Maschinen. Die Welt ist einfach zu komplex, es gibt einfach zu viele Möglichkeiten zur Variation.
+
+__Aber AlphaGo!__
+
+Nein, auych AlphaGo nicht. AlphaGo hat Millionen von Spielen gegen sich selbst gespielt bevor es so stark wurde. Allerdings ist Go eine  sehr abstrakte Repräsentation unserer Welt und die Regeln verändern sich nicht. In unserer Welt, in einem hypothetischen Krieg Mensch gegen Maschine würden sich die Regeln stetig verändern, und die KI hat nur einen Versuch; kein Training, gleich rein ins Getümmel. Sie hat keine, ich wiederhole in Breitschrift - __keine__ Chance die ersten, sagen wir 100 mal, auch nur einen Fuß Land zu gewinnen.
+
+Das Problem sind eher KIs, die auf dem Schlachtfeld von Menschen geführt werden; aber das ist eine andere Geschichte und soll ein andermal erzählt werden.
