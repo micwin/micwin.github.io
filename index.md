@@ -15,6 +15,6 @@ Ich bin aktuell verfügbar.
 
 Mit Freundlichen Grüssen,
 
-_Ihr Michael Winkler_
+_Ihr Michael Winkler_ :-)
 
 
