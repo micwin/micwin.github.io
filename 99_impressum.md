@@ -16,6 +16,6 @@ Texte und Bilder) bedarf schriftlicher Genehmigung.
 ### Mahnf&auml;hige Adresse des Betreibers:
 
 Michael Winkler  
-Taubenweg 10  
-85238 Petershausen  
+Kirchstraße 11
+88212 Ravensburg
 USt.-ID DE243567413  
