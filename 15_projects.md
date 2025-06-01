@@ -11,206 +11,201 @@ Bitte haben Sie Verständnis dafür, dass ich öffentlich keine Endkunden nenne.
 Bitte fordern Sie gerne die Projektliste in Word-Format bzw. PDF an.
 
 
-### Integrator (Kubernetes, GitLab CI)
-- **Zeitraum:** 05.2024 - 07.2025
+### Integrator (Kubernetes, GitLab CI, Ansible)
+- **Zeitraum:** 05.2024 - 05.2025
 - **Technologien:** Kubernetes, Rancher Kubernetes Engine 2 (RKE2), Powershell, GitLab CI, Puppet, Ansible, Docker, Portman, Crane, Python
-- **Beschreibung:** Wiedererweckung und Modernisierung eines Halb-Automatischen, 
-proprietären Frameworks zum Management von 13 Systemumgebungen
-auf Basis von Powershell-Skripten. Das Projekt wurde vor meiner Zeit für
-ca 2 Jahre schlafen gelegt und musste ohne den Großteil der 
-ursprünglichen Mannschaft und Resourcen reaktiviert werden.
+- **Beschreibung:** Wiedererweckung und Modernisierung eines halbautomatischen Frameworks auf Powershell-Basis für das Management von 13 Systemumgebungen. Das Projekt war zuvor zwei Jahre pausiert und wurde ohne die ursprünglichen Ressourcen reaktiviert.
 
 
 ### GitLab DevOps Engineer
 - **Zeitraum:** 08.2022 - 07.2023
 - **Technologien:** Ansible, Python, GitLab, Docker, Portman, WSL2, k8s, Openshift
-- **Beschreibung:** Weiterentwicklung eines Ansible-Playbooks zur Wartung eines bestehenden GitLab-Geo-Clusters mit der Funktion, neue Geo-Cluster zu erstellen und bestehende zu aktualisieren. Erstellung von End-to-End-Tests für die GitLab-Instanz. Migration der End-to-End-Tests in eine lokale, containerisierte Umgebung. Überarbeitung der Dokumentation und Hinzufügung von zahlreichem Beispielcode. Erstellung eines Tools zum zeitgesteuerten Scannen und Abbauen von hängenden Runner-Containern.
+- **Beschreibung:** Weiterentwicklung von Ansible-Playbooks zur Wartung eines bestehenden GitLab-Geo-Clusters, inklusive Erstellung neuer Cluster. Entwicklung und Migration von End-to-End-Tests in containerisierte Umgebungen. Erstellung eines Tools zur automatischen Bereinigung hängender Runner-Container.
 
 
 ### Entwickler (Python)
 - **Zeitraum:** 07.2022 - 09.2022
 - **Technologien:** Linux, Python, Maven, Poetry, CycloneDx
-- **Beschreibung:** Erstellung eines bom-Generators fuer Maven-Projekte. Mitarbeit an einem Package Scanner fuer Docker-Images
+- **Beschreibung:** Entwicklung eines BOM-Generators für Maven-Projekte. Mitarbeit an einem Docker-Image-Package-Scanner.
 
 
 ### Entwickler (Java)
 - **Zeitraum:** 05.2022 - 06.2022
-- **Technologien:** Java, Junit (5) Jupiter, Linux, SonarQube, IntelliJ
-- **Beschreibung:** Vorbereitung der Einführung von Test First, Behebung von Blocker-Incidents in SonarQube
+- **Technologien:** Java, JUnit 5 Jupiter, Linux, SonarQube, IntelliJ
+- **Beschreibung:** Vorbereitung zur Einführung von „Test First“ und Behebung von Blocker-Issues in SonarQube.
 
 
 ### Entwickler (Python), DevOps
 - **Zeitraum:** 03.2022 - 04.2022
 - **Technologien:** Ansible, Cinder, Docker, GitLab, Linux, OpenStack, Python
-- **Beschreibung:** Einrichtung eines zusätzlichen GitLab-Agents; Erstellung von Pipelines für den Build- und Deploy-Prozess einer OpenStack-Installation mit kolla-ansible und Cinder
+- **Beschreibung:** Einrichtung zusätzlicher GitLab-Agenten sowie Erstellung von Build- und Deploy-Pipelines für OpenStack (kolla-ansible, Cinder).
 
 
 ### Linux-Administrator
 - **Zeitraum:** 10.2021 - 03.2022
 - **Technologien:** Ansible, Docker, GitLab, libgender, Linux, Python
-- **Beschreibung:** Mithilfe beim Betrieb der über 400 Individual-Installationen der Stadtwerke, MVG und muenchen.de; Bereitstellung eines dynamischen Ansible-Repos  (Skript-Seite) mittels Python auf der Basis von libgender
+- **Beschreibung:** Betrieb von über 400 individuellen Installationen der Stadtwerke München, MVG und muenchen.de. Bereitstellung eines dynamischen Ansible-Repos mit Python auf Basis von libgender.
 
 
 ### Cloud Engineer, DevOps
 - **Zeitraum:** 11.2020 - 03.2021
-- **Technologien:** Azure DevOps, Docker, Kubernetes,  Linux (Ubuntu),  Loki, Postgres, Python, Spring Boot
-- **Beschreibung:** Aufsetzen des Integrationstests in Azure Pipelines und Kubernetes, Alerting, Behebung von Laufzeitfehlern, Utilisieren der Loki-Instanz, Erstellung von DB-Restore Jobs, Geradeziehen von Readiness Flags, Erstellung von Pod Reports, Erstellung von Log Dump Jobs
+- **Technologien:** Azure DevOps, Docker, Kubernetes, Linux (Ubuntu), Loki, Postgres, Python, Spring Boot
+- **Beschreibung:** Aufbau von Integrationstests in Azure Pipelines und Kubernetes. Implementierung von Alerting, Fehlerbehebung, Nutzung der Loki-Instanz, sowie Erstellung diverser Verwaltungsjobs (DB-Restore, Pod-Reports, Log-Dumps).
 
 
 ### Entwickler, Betreiber
-- **Zeitraum:** 07.2020 - 12.2099
+- **Zeitraum:** 07.2020 - laufend
 - **Technologien:** Azure Pipelines, Bash, GitLab
-- **Beschreibung:** https://metafence.GitLab.io/clici/
-
+- **Beschreibung:** https://metafence.gitlab.io/clici/
 
 ### DevOps, Server-Admin, interim Application Manager
 - **Zeitraum:** 05.2020 - 08.2020
-- **Technologien:** Linux (rhel),  spring boot,  bash, Maven, Adopt OpenJDK 11, Docker, Docker-compose, hashicorp vault, ELK, Jenkins, openVPN, TestRail, Jira, Confluence
-- **Beschreibung:** Im Laufe des Insourcing die Übernahme der Wartung von einem serbischen Team, Erstellung eines Docker-compose-files plus Controller-Skripts für die bereits Dockerisierte Microservice-Architektur, Freischaltung diverser IP-Adressen und Monitoring-Apps, Verfechtung und Etablierung eines Client-to-Site-VPNs, Ausschließung des serbischen Teams. Abschaltung aufgrund Nachfolgeversion.
+- **Technologien:** Linux (RHEL), Spring Boot, Bash, Maven, Adopt OpenJDK 11, Docker, Docker-compose, Hashicorp Vault, ELK, Jenkins, OpenVPN, TestRail, Jira, Confluence
+- **Beschreibung:** Übernahme der Wartung im Zuge des Insourcings von einem externen Team. Erstellung von Docker-Compose und Controller-Skripten für eine dockerisierte Microservice-Architektur. Einrichtung von Monitoring, IP-Freischaltungen, Etablierung eines Client-to-Site-VPNs. Abschaltung wegen Nachfolgeversion.
 
 
 ### DevOps, Server-Admin
 - **Zeitraum:** 01.2020 - 04.2020
-- **Technologien:** Linux (rhel7 ubuntu,  centos, alpine, SLES) , Jira, Confluence,thinlinc
-- **Beschreibung:** Unterstützung der Entwickler bei Bedienproblemen mit Eclipse, Setup zweier On-Prem-Maschinen für das Inhousing, Dockerisierung des Build-Prozesses, Einführung von thinlinc, ab März Übergabe an T-Systems
+- **Technologien:** Linux (RHEL7, Ubuntu, CentOS, Alpine, SLES), Jira, Confluence, Thinlinc
+- **Beschreibung:** Unterstützung der Entwickler bei Eclipse-Problemen. Setup von zwei On-Prem-Maschinen für Inhousing, Dockerisierung des Build-Prozesses, Einführung von Thinlinc. Ab März Übergabe an T-Systems.
 
 
 ### Ops
 - **Zeitraum:** 10.2019 - 12.2019
-- **Technologien:** Percona Cluster, Percona Manager, Grafana, Linux, Docker, Ansible, Docker-compose, Jira, Confluence, Bitbucket, Jenkins, Hybris, ssh, csshx
-- **Beschreibung:** Vorbereitungen Black Friday/Cyber Monday: Migration von 4 Umgebungen von MySql zu Percona, Installation und Konfiguration von Percona Management Server, On-Call, Erstellung kleinerer Jenkins Jobs
+- **Technologien:** Percona Cluster, Percona Manager, Grafana, Linux, Docker, Ansible, Docker-compose, Jira, Confluence, Bitbucket, Jenkins, Hybris, SSH, csshx
+- **Beschreibung:** Vorbereitung auf Black Friday/Cyber Monday: Migration von vier Umgebungen von MySQL zu Percona. Installation und Konfiguration des Percona Management Servers. Erstellung von Jenkins-Jobs und Bereitschaftsdienst.
 
 
 ### Assistenz Release-Management
 - **Zeitraum:** 08.2019 - 09.2019
 - **Technologien:** Excel
-- **Beschreibung:** Tägliches Einsammeln, Normalisieren und Zusammenfügen von Ticket-Statusreports von 12 Projektteams.
+- **Beschreibung:** Tägliches Einsammeln, Normalisieren und Zusammenführen der Ticket-Statusberichte von zwölf Projektteams.
 
 
-### DevOps Pionier, Automatisierungsexperte
+### DevOps-Pionier, Automatisierungsexperte
 - **Zeitraum:** 04.2019 - 07.2019
-- **Technologien:** GitLab, Liferay, centOS Linux, Ansible, plantUML, IDEA, Test Driven Development (junit, mockito)
-- **Beschreibung:** Manuelles Staging- und Life-Deployments in Liferay; Migration der bestehenden CI-Umgebung von Jenkins und Gitblit  nach GitLab; Etablierung von ersten, Docker-basierten build-agents; Mithilfe in Task Forces zur Code-Qualität; Entwurf eines vollumfänglichen IaC-Ansatzes; Fehlersuche, Ticketbearbeitung.
+- **Technologien:** GitLab, Liferay, CentOS Linux, Ansible, plantUML, IDEA, Test Driven Development (JUnit, Mockito)
+- **Beschreibung:** Durchführung manueller Staging- und Live-Deployments in Liferay. Migration der CI-Umgebung von Jenkins/Gitblit nach GitLab. Aufbau erster Docker-basierter Build-Agents, Mitarbeit in Task-Forces zur Code-Qualität, Entwicklung eines IaC-Ansatzes sowie Ticketbearbeitung und Fehlersuche.
 
 
-### DevOps Pionier, Automatisierungsexperte
+### DevOps-Pionier, Automatisierungsexperte
 - **Zeitraum:** 10.2018 - 01.2019
-- **Technologien:** Linux, Terraform, Ansible, Consul, Git, TFS,  plantUML, Citrix
-- **Beschreibung:** Design und Aufbau einer IaC-Toolchain zur automatischen Erstellung von Umgebungen auf der Basis OpenStack und dazugehöriger TFS Build Jobs. Erstellung von Testumgebungen auf der Basis rabbitmq und Python mit Docker compose. Erstellung eines Remote Zugriffs auf eine ­Ubuntu-VM mittels Citrix.
+- **Technologien:** Linux, Terraform, Ansible, Consul, Git, TFS, plantUML, Citrix
+- **Beschreibung:** Design und Aufbau einer IaC-Toolchain zur automatisierten Erstellung von Umgebungen auf Basis von OpenStack und TFS Build Jobs. Erstellung von Testumgebungen mit RabbitMQ und Python mittels Docker-compose. Einrichtung eines Remote-Zugriffs auf Ubuntu-VMs via Citrix.
 
 
-### DevOps Pionier, Automatisierungsexperte, GitLab-Admin
+### DevOps-Pionier, Automatisierungsexperte, GitLab-Administrator
 - **Zeitraum:** 07.2017 - 09.2018
-- **Technologien:** Linux, Ansible, RHEL, Git, GitLab, GitLab-CI, Jira, Confluence, RHOSP, Rancher, intellij, Slack, scrum, Docker, centos, coreos, spring boot
-- **Beschreibung:** Aufbau einer Container-Umgebung mit CoreOS und Rancher, Installation, Betreuung  und Verteidigung der zentralen GitLab-Instanz mittels Ansible, Betreuung der Entwickler beim Erstellen ihrer CI-Pipelines und Deploy-Prozessen,  Automatisierung des Deploy-Prozesses der Red Hat OpenStack Plattform (Undercloud und Overcloud) mittel GitLab-CI und Ansible, Erstellung eines Consul-Clusters (PoC), Erstellung eines automatischen Test-Prozesses für GitLab-Backups, punktuell Scrum-Master
+- **Technologien:** Linux, Ansible, RHEL, Git, GitLab, GitLab-CI, Jira, Confluence, RHOSP, Rancher, IntelliJ, Slack, Scrum, Docker, CentOS, CoreOS, Spring Boot
+- **Beschreibung:** Aufbau einer Container-Umgebung (CoreOS, Rancher). Betrieb und Sicherung der zentralen GitLab-Instanz mittels Ansible. Unterstützung der Entwickler bei CI/CD-Pipelines. Automatisierung von Deployments für Red Hat OpenStack (Undercloud, Overcloud) mit GitLab-CI und Ansible. Erstellung eines Consul-Clusters (PoC), automatischer Backup-Testprozess für GitLab. Gelegentliche Scrum-Master-Tätigkeiten.
 
 
-### DevOps Pionier + Jenkins-Betreuer
+### DevOps-Pionier, Jenkins-Betreuer
 - **Zeitraum:** 09.2016 - 06.2017
-- **Technologien:** Linux, RHEL, Git, GitLab, bash, ssh, screen, vim , jenkins, mantis, tomcat, java 7 / 8, scrum, ansible, Docker, Raspberry PI, nginx, spring boot
-- **Beschreibung:** Betreuung einer bestehenden CI (nexus, gradle, jenkins + 20 slaves, Tomcat); Mithilfe bei der Migration zu jobDSL; Evaluation eines Provisioning-Tools; Planung und Erstellung zweier prototypischer Entwicklungs-Infrastrukturen mittels ansible, Docker, GitLab, tomcat, nginx; Erstellung eines prototypischen, Architektur-übergreifenden Docker swarm; Git coaching; Vorbereitung und Durchführung von Präsentationen; Überzeugungsarbeit im Konzern sowie bei Geschäftspartnern; Beratung Build-Prozess;  Entwurf eines blockchain-basierten (Ethereum) Geschäftsmodells; Erstellung von Installationsanleitungen und Betriebskonzepten
+- **Technologien:** Linux, RHEL, Git, GitLab, Bash, SSH, Screen, Vim, Jenkins, Mantis, Tomcat, Java 7/8, Scrum, Ansible, Docker, Raspberry Pi, Nginx, Spring Boot
+- **Beschreibung:** Wartung einer bestehenden CI-Umgebung (Nexus, Gradle, Jenkins mit 20 Slaves, Tomcat). Unterstützung bei der Migration zu JobDSL, Evaluation von Provisioning-Tools, Aufbau prototypischer Entwicklungsinfrastrukturen (Ansible, Docker, GitLab, Tomcat, nginx). Entwicklung eines Docker-Swarm-Prototypen, Git-Coaching, Durchführung von Präsentationen, Prozessberatung, Entwurf eines Ethereum-basierten Geschäftsmodells, Erstellung von Installations- und Betriebskonzepten.
 
 
-### Migrations-Experte, Linux Consultant
+### Migrations-Experte, Linux-Consultant
 - **Zeitraum:** 06.2016 - 09.2016
-- **Technologien:** Linux, cvs2svn, RHEL, centOS6, cvs, Git 2.6, bitbucket, jira, bash, ssh, screen, gawk, sed, vim / vundle ...
-- **Beschreibung:** Konzeptionierung und Durchführung der Migration von cvs zu Git; Mitentwicklung des Schulungskonzepts, Integration in bitbucket/jira, Konzeptionierung Git flow @ interhyp, Erstellung der Export-/Import-Skripte, High - Level - Workshop Git, Klein-Studie Feature Toggles.
+- **Technologien:** Linux, cvs2svn, RHEL, CentOS 6, CVS, Git 2.6, Bitbucket, Jira, Bash, SSH, Screen, gawk, sed, Vim / Vundle
+- **Beschreibung:** Konzeption und Durchführung der Migration von CVS zu Git. Mitarbeit an einem Schulungskonzept, Integration in Bitbucket/Jira, Konzeption von Git-Flow für Interhyp, Erstellung von Export-/Import-Skripten, Durchführung von Git-Workshops sowie einer Klein-Studie zu Feature-Toggles.
 
 
 ### DevOps, Build Engineer
 - **Zeitraum:** 01.2016 - 05.2016
-- **Technologien:** Absible, Debian,  GitLab, Java, Linux, Jenkins, Maven, Nexus, Raspian, RHEL, spring boot, VirtualBox
-- **Beschreibung:** Mitwirkung im DevOps-Team der Hornbach (insgesamt 3 Mann); Konzeptionierung und Umsetzung der Deployment-Pipeline für interne Produkte auf Basis des Apache ServiceBus; Unterstützung bei der Erstellung von Maven-Skripten, Durchführung von Präsentationen, Unterstützung bei Technologie-Entscheidungen, Entwurf und Realisierung eines Dashboard auf Basis eines Raspberry PI II und Raspbian, gemeinschaftliches Design eines Basis-Images für virtuelle Maschinen (Dev-Anteil), Ticket-Bearbeitung, User-Administration, Administration GitLab / Jenkins, Vertretung bei Meetings, Management von Verteil-Prozessen, Neruaufsetzen einer Build-Pipeline für zwei Projekte der Platform Apache ServiceMix
+- **Technologien:** Ansible, Debian, GitLab, Java, Linux, Jenkins, Maven, Nexus, Raspbian, RHEL, Spring Boot, VirtualBox
+- **Beschreibung:** Mitarbeit im DevOps-Team (3 Personen). Konzeption und Umsetzung einer Deployment-Pipeline auf Basis des Apache ServiceBus, Unterstützung bei Maven-Skripten, Technologieentscheidungen und Präsentationen. Aufbau eines Dashboards mit Raspberry Pi II und Raspbian. Design eines Basis-Images für VMs, Ticket-Bearbeitung, User-Administration, Verwaltung von GitLab/Jenkins, Management von Verteilprozessen, Neuaufbau von Build-Pipelines für Apache ServiceMix-Projekte.
 
 
 ### Build Engineer
 - **Zeitraum:** 08.2015 - 12.2015
-- **Technologien:** ant, ant-eclipse, bash, BeyondCompare, cruise control, cvs, cygwin, eclipse, Git extensions, Git-svn, Git cvsimport, jenkins, linux, Maven, MS Office, subversion, yEd
-- **Beschreibung:** Analyse, Planung und (teilweise) Durchführung der Migrationen von CruiseControl zu Jenkins, von CVS zu Subversion (SVN) sowie von ant nach Maven. Erstellung diverser Präsentationen, Erstellung von Statusberichten sowie Mini-Schulungen der betroffenen Mitarbeiter 
+- **Technologien:** Ant, Ant-Eclipse, Bash, BeyondCompare, CruiseControl, CVS, Cygwin, Eclipse, Git Extensions, Git-SVN, Git cvsimport, Jenkins, Linux, Maven, MS Office, Subversion (SVN), yEd
+- **Beschreibung:** Analyse, Planung und teilweise Durchführung der Migrationen von CruiseControl zu Jenkins, von CVS zu Subversion sowie von Ant nach Maven. Erstellung diverser Präsentationen, Statusberichte und Mini-Schulungen der betroffenen Mitarbeiter.
 
 
 ### DevOps
 - **Zeitraum:** 05.2015 - 07.2015
-- **Technologien:** bash, centos, eclipse, Git extensions, Git-svn, Git, jenkins, linux, Maven, subversion, hdfs (hadoop), virtualbox, gentoo, SourceTree, eGit
-- **Beschreibung:** Erstellung einer Dokusmentations-Platform auf Basis des Maven site plugins ; Optimierung der  Jenkins-Builds; Evaluation Vagrant;  Überarbeitung des multi-module Maven-Builds; Migration von Subversion auf Git; Überarbeitung der Integrations-Tests; Wartung des Entwickler-Clusters
+- **Technologien:** Bash, CentOS, Eclipse, Git Extensions, Git-SVN, Git, Jenkins, Linux, Maven, Subversion (SVN), HDFS (Hadoop), VirtualBox, Gentoo, SourceTree, eGit
+- **Beschreibung:** Erstellung einer Dokumentationsplattform basierend auf dem Maven Site Plugin. Optimierung von Jenkins-Builds, Evaluation von Vagrant, Überarbeitung des Multi-Module-Maven-Builds, Migration von Subversion nach Git, Verbesserung der Integrationstests sowie Wartung des Entwickler-Clusters.
 
 
 ### Senior Software-Entwickler
 - **Zeitraum:** 11.2014 - 04.2015
-- **Technologien:** ant, clean code, Confluence, Eclipse, Git-svn, Git, Jenkins, Jira, JDK 6, JUnit, Maven, refactoring, Swing, SVN, test first
-- **Beschreibung:** Refactoring und Weiterentwicklung eines Systems zur Übersetzung von Bertriebs­Handbüchern in diverse Sprachen. Weiter- und Neuentwicklungen von Swing-Komponenten; Anpassung der Soap-Schnittstelle (Client und Server) an neue Typen; Erstellung von Mockups für den Endkunden; Coaching jüngerer Entwickler; Fehlerbehebung; Anleitung jüngerer Entwickler.
+- **Technologien:** Ant, Clean Code, Confluence, Eclipse, Git-SVN, Git, Jenkins, Jira, JDK 6, JUnit, Maven, Refactoring, Swing, Subversion (SVN), Test First
+- **Beschreibung:** Refactoring und Weiterentwicklung eines Systems zur Übersetzung von Betriebshandbüchern in verschiedene Sprachen. Entwicklung von Swing-Komponenten, Anpassung der SOAP-Schnittstelle (Client und Server) an neue Typen, Erstellung von Mockups für den Endkunden sowie Coaching jüngerer Entwickler und Fehlerbehebung.
 
 
 ### Software-Entwickler, DevOps
 - **Zeitraum:** 04.2014 - 09.2014
-- **Technologien:** JEE 1.6, Java 1.6, Maven, JPA, Oracle, Websphere, Eclipse , Git, svn, mockito, junit, CentOS, X.50x, EJB 3.x, jenkins, CI, Sonar
-- **Beschreibung:** Erstellung eines VirtualBox-Images für Entwickler; Erstellung zweier Import-Tools zum Abgleich der Daten mittels eines RCP-Clients; Vorbereitung eines OCSP-Providers zum Ersatz der bisherigen CRL-Lösung
+- **Technologien:** JEE 1.6, Java 1.6, Maven, JPA, Oracle, WebSphere, Eclipse, Git, Subversion (SVN), Mockito, JUnit, CentOS, X.509, EJB 3.x, Jenkins, Continuous Integration (CI), SonarQube
+- **Beschreibung:** Erstellung eines VirtualBox-Images für Entwickler. Entwicklung zweier Import-Tools für Datenabgleich mittels eines RCP-Clients. Vorbereitung eines OCSP-Providers als Ersatz der bestehenden CRL-Lösung.
 
 
-### Software-Entwickler, 3rd Level Support
+### Software-Entwickler, 3rd-Level Support
 - **Zeitraum:** 09.2013 - 12.2013
-- **Technologien:** JEE 1.5, Java 1.7, Maven, Ant, EclipseLink, Oracle, Websphere, Eclipse , svn, mockito, junit, kanban, intellij, jenkins, CI, Sonar, Test Driven Development
-- **Beschreibung:** Behebung diverser Fehler aus dem Shop-Betrieb; Erweiterung der Backoffice-Administrationstools
+- **Technologien:** JEE 1.5, Java 1.7, Maven, Ant, EclipseLink, Oracle, WebSphere, Eclipse, Subversion (SVN), Mockito, JUnit, Kanban, IntelliJ, Jenkins, Continuous Integration (CI), SonarQube, Test Driven Development (TDD)
+- **Beschreibung:** Fehlerbehebung im laufenden Shop-Betrieb sowie Erweiterung der Backoffice-Administrationstools.
 
 
 ### Software-Entwickler, interim Team-Lead
 - **Zeitraum:** 04.2013 - 08.2013
-- **Technologien:** JEE 1.5, Java 1.6, Ant, JPA (Hibernate), Oracle, Websphere, Rational System Architect (RSA) , svn, spring, Git, Git-svn, Rational Team Concert, ubuntu, RedHat, mockito, testng, jpa, sonar, Test Driven Development
-- **Beschreibung:** Realisierung des camt.54-Imports einer Webanwendung zum Management von SEPA Direct Debit Mandaten und SEPA Credit Transfers. Rework des Unit Test Frameworks. Team-Lead kleinerer Teams
+- **Technologien:** JEE 1.5, Java 1.6, Ant, JPA (Hibernate), Oracle, WebSphere, Rational System Architect (RSA), SVN, Spring, Git, Git-SVN, Rational Team Concert, Ubuntu, RedHat, Mockito, TestNG, SonarQube, Test Driven Development (TDD)
+- **Beschreibung:** Implementierung des camt.54-Imports für eine Webanwendung zum Management von SEPA Direct Debit Mandaten und SEPA Credit Transfers. Überarbeitung des Unit-Test-Frameworks und interimistischer Team-Lead kleinerer Teams.
 
 
 ### Software-Entwickler
 - **Zeitraum:** 01.2013 - 04.2013
-- **Technologien:** Wicket 6.0, JEE 1.5, Java 1.6, Maven, hibernate, hsqldb,  jetty 6, tomcat 7 (standalone und embedded), Eclipse (Juno), Git, Git-svn, svn, spring, junit, mockito, rup, clean code, funtionale Programmierung, jenkins, sonar, craftsmanship, Test Driven Development
-- **Beschreibung:** Umstellung der Kalender-Anwendung auf eine allgemein gehaltene Anwesenheiten/Abwesenheiten-Verwaltung, Behebung diverser Bugs
+- **Technologien:** Wicket 6.0, JEE 1.5, Java 1.6, Maven, Hibernate, HSQLDB, Jetty 6, Tomcat 7 (standalone und embedded), Eclipse (Juno), Git, Git-SVN, SVN, Spring, JUnit, Mockito, RUP, Clean Code, Funktionale Programmierung, Jenkins, SonarQube, Craftsmanship, Test Driven Development (TDD)
+- **Beschreibung:** Umstellung der Kalender-Anwendung auf eine generische Anwesenheits- und Abwesenheitsverwaltung sowie Behebung diverser Fehler.
 
 
 ### Software-Entwickler (Java), Scrum-Coach
 - **Zeitraum:** 09.2012 - 12.2012
-- **Technologien:** Wicket 1.5 und 6.0, JEE 1.5, Java 1.6, Maven, hibernate, h2,  jetty 6, tomcat 7 (standalone und embedded), Eclipse (Indigo, Juno), svn, scrum, ehcache, spring, jenkins, sonar, Craftsmanship, Test Driven Development
-- **Beschreibung:** Implementierung einer hybriden Intranet-Anwendung (Online / Offline) für die Service-Techniker der im Haus produzierten Industriemaschinen. Es galt einen RCP-Client als Wicket-Anwendung nachzuentwickeln.
+- **Technologien:** Wicket 1.5 und 6.0, JEE 1.5, Java 1.6, Maven, Hibernate, H2, Jetty 6, Tomcat 7 (standalone und embedded), Eclipse (Indigo, Juno), SVN, Scrum, Ehcache, Spring, Jenkins, SonarQube, Craftsmanship, Test Driven Development (TDD)
+- **Beschreibung:** Implementierung einer hybriden Intranet-Anwendung (Online/Offline) für die Servicetechniker der intern produzierten Industriemaschinen. Umsetzung eines bestehenden RCP-Clients als Wicket-Webanwendung.
 
 
 ### Software-Entwickler (Java)
 - **Zeitraum:** 10.2011 - 09.2012
-- **Technologien:** JEE 1.5, Java 1.6, ant, hibernate, JMS (MQ, glassfish), JDBC, Corba, Eclipse, Solaris, Linux, log4j, commons-logging, junit, cvs, ssh
-- **Beschreibung:** Feinschliff und Weiterführung eines EAI-Adapters, der Daten von ausserhalb des Kunden mittels JMS / XML entgegennimmt , buffert, validiert und anreichert, und an die diversen internen Corba-Dienste weiterleitet. Konzeption und Entwicklung weiterer Adaptoren.
+- **Technologien:** JEE 1.5, Java 1.6, Ant, Hibernate, JMS (MQ, Glassfish), JDBC, Corba, Eclipse, Solaris, Linux, Log4j, Commons-logging, JUnit, CVS, SSH
+- **Beschreibung:** Verfeinerung und Weiterentwicklung eines EAI-Adapters, der externe JMS/XML-Daten entgegennimmt, puffert, validiert, anreichert und an interne Corba-Dienste weiterleitet. Konzeption und Entwicklung weiterer Adapter.
 
 
-### Software-Entwickler (Java), 3rd Level Support, technischer Ansprechpartner
+### Software-Entwickler (Java), 3rd-Level Support, Technischer Ansprechpartner
 - **Zeitraum:** 01.2011 - 08.2011
-- **Technologien:** JEE 1.5, Tomcat, Java 1.6, ant, hibernate, jpa, spring, quartz, cron, wicket, Eclipse, ubuntu, log4j, slf4j, junit, svn, subversion, Git, ssh tunnel, vpn, tunnelblick, Mac OS X 10.6 64-Bit, Skype, mysql, Git, jdbc, Test Driven Development
-- **Beschreibung:** Kaltübernahme und Performance- Optimierung eines Banner- Auslieferungs- und Click-Tracking- Server, der zuvor in Armenien gewartet und wieder re-insourct wurde. Lösung eines konkreten Performance-Problems der Datenbank-Schicht. Überarbeitung der Build- und Deployment-Prozesse, Erstellung einer Mini- Profiling- API, Performance-Analyse und -Verbesserung, Datenbank- Bereinigung, Einführung von Git
+- **Technologien:** JEE 1.5, Tomcat, Java 1.6, Ant, Hibernate, JPA, Spring, Quartz, Cron, Wicket, Eclipse, Ubuntu, Log4j, SLF4J, JUnit, Subversion (SVN), Git, SSH Tunnel, VPN, Tunnelblick, Mac OS X 10.6 (64-Bit), Skype, MySQL, JDBC, Test Driven Development (TDD)
+- **Beschreibung:** Übernahme und Performance-Optimierung eines Banner-Auslieferungs- und Click-Tracking-Servers, ursprünglich von einem externen Team in Armenien entwickelt. Behebung eines kritischen Datenbank-Performanceproblems, Optimierung der Build- und Deployment-Prozesse, Entwicklung einer Mini-Profiling-API, allgemeine Performanceverbesserungen, Datenbankbereinigung und Einführung von Git.
 
 
 ### Software-Entwickler (Java)
 - **Zeitraum:** 07.2010 - 12.2010
-- **Technologien:** Java 1.5/1.6 (Swing), XSLT, Eclipse 3.5, ClearCase, jdbc
-- **Beschreibung:** Erweiterung eines gewachsenen Swing-Clients, um ihn für die anstehende TUEV-Privatisierung fit zu machen. Implementierung diverser Komponenten aller Schichten. Konzeption und Implementierung diverser Teilfunktionen und -Module.
+- **Technologien:** Java 1.5/1.6 (Swing), XSLT, Eclipse 3.5, ClearCase, JDBC
+- **Beschreibung:** Erweiterung eines bestehenden Swing-Clients für die anstehende TÜV-Privatisierung. Implementierung von Komponenten auf allen Schichten sowie Konzeption und Umsetzung verschiedener Teilfunktionen und Module.
 
 
-### Software-Entwickler (grails), Projektleiter
+### Software-Entwickler (Grails), Projektleiter
 - **Zeitraum:** 04.2010 - 08.2010
-- **Technologien:** jBoss 5.1 , grails , jBoss Seam, jBoss Hibernate, Java 1.5/1.6, Eclipse 3.5, Spring 2.0, OOA / OOD, JPA, JSF, JSP, Annotations, MySQL, MS SQL, Test Driven Development
-- **Beschreibung:** Konzeptionierung und Realisierung einer Web-Anwendung zur Verwaltung der Kundenbeziehungen und Durchführung von Umzugsprojekten
+- **Technologien:** JBoss 5.1, Grails, JBoss Seam, JBoss Hibernate, Java 1.5/1.6, Eclipse 3.5, Spring 2.0, OOA/OOD, JPA, JSF, JSP, Annotations, MySQL, MS SQL, Test Driven Development (TDD)
+- **Beschreibung:** Konzeption und Umsetzung einer Webanwendung zur Verwaltung von Kundenbeziehungen und Abwicklung von Umzugsprojekten.
 
 
 ### Software-Entwickler (Java), DevOps
 - **Zeitraum:** 12.2009 - 02.2010
-- **Technologien:** Eclipse, Java , Axis, XML, CVS, Maven, Bamboo, Eclipse RCP, Eclipse PDE, Eclipse Plugins
-- **Beschreibung:** Portierung diverser Java-Projekte (Eclipse RCP, Eclipse PDE) von Ant nach Maven und Einrichtung von passenden Build-Plans in Bamboo.
+- **Technologien:** Eclipse, Java, Axis, XML, CVS, Maven, Bamboo, Eclipse RCP, Eclipse PDE, Eclipse Plugins
+- **Beschreibung:** Portierung diverser Java-Projekte (Eclipse RCP, Eclipse PDE) von Ant nach Maven sowie Einrichtung entsprechender Build-Pläne in Bamboo.
 
 
-### Software-Entwickler, 1st Level Support, 3rd Level Support
+### Software-Entwickler, 1st-Level Support, 3rd-Level Support
 - **Zeitraum:** 01.2009 - 11.2009
-- **Technologien:** Swing, Java, Ant, Maven, CVS, Eclipse, Mediawiki, XSLT
-- **Beschreibung:** Wartung des Korrespondenz- Clients zur Erstellung von Kunden-Korrespondenz in der Sparte “Leben”.
+- **Technologien:** Swing, Java, Ant, Maven, CVS, Eclipse, MediaWiki, XSLT
+- **Beschreibung:** Wartung und Support des Korrespondenz-Clients zur Erstellung von Kundenkorrespondenz im Bereich "Leben".
 
 
 ### Software-Entwickler, Scrum-Berater
 - **Zeitraum:** 04.2008 - 10.2008
-- **Technologien:** Eclipse, JEE, Java 1.5, Axis, XML, XSLT, SOAP,  WSDL (Contract first), Subversion, Mysql, Oracle, Junit, Mediawiki, Hibernate, SCRUM
-- **Beschreibung:** Erweiterung des Trouble Management Systems um einen weiteren Kunden
+- **Technologien:** Eclipse, JEE, Java 1.5, Axis, XML, XSLT, SOAP, WSDL (Contract First), Subversion (SVN), MySQL, Oracle, JUnit, MediaWiki, Hibernate, Scrum
+- **Beschreibung:** Erweiterung eines Trouble-Management-Systems zur Integration eines zusätzlichen Kunden.
 
 
 ### Software-Entwickler
@@ -249,74 +244,75 @@ ursprünglichen Mannschaft und Resourcen reaktiviert werden.
 - **Beschreibung:** Wartung des T-Punkt-Client-/Servermoduls, eines eingebetteten Visual Basic Clients zur Bearbeitung von Adressdaten, der seine Daten mittels XML-Schnittstelle von einem Java-Server bezieht,  und dorthin speichert.
 
 
-### Team-Management, Architekt, Software-Entwickler
+### Team-Manager, Architekt, Software-Entwickler
 - **Zeitraum:** 01.2003 - 06.2003
-- **Technologien:**  Java, JDBC, BEA Weblogic, DB2, XML, XSLT, Eclipse 2, CVS, JUnit, Ant, AS/400, Unix
-- **Beschreibung:** Portierung des zentralen Batch-Moduls zur “Massunumschaltung und Rufnummern-Änderung”. Das Modul existierte in mehreren Modulen in Cobol und C/C++, und wurde von uns (in einem ständig wechselnden Team) nach Java portiert. 
+- **Technologien:** Java, JDBC, BEA WebLogic, DB2, XML, XSLT, Eclipse 2, CVS, JUnit, Ant, AS/400, Unix
+- **Beschreibung:** Portierung des zentralen Batch-Moduls zur „Massenumschaltung und Rufnummernänderung“ von Cobol und C/C++ nach Java. Zusammenarbeit in einem dynamisch wechselnden Team.
 
 
 ### Software-Entwickler
 - **Zeitraum:** 07.2002 - 12.2002
-- **Technologien:**  Java, JDBC, DB2, XML, XML-Schema, Castor, Eclipse 2, CVS, JUnit, Ant, AS/400, Unix
-- **Beschreibung:** Portierung des zentralen Import-Moduls der Vertriebs-Adressdaten (ca 12 Satelliten-Systeme), nach Java. Die Version 2 des Moduls existierte in C/C++ und Cobol, und wurde von uns unter hohem Zeitdruck nach Java portiert. 
+- **Technologien:** Java, JDBC, DB2, XML, XML Schema, Castor, Eclipse 2, CVS, JUnit, Ant, AS/400, Unix
+- **Beschreibung:** Portierung des zentralen Import-Moduls für Vertriebs-Adressdaten von etwa 12 Satelliten-Systemen aus C/C++ und Cobol nach Java unter hohem Zeitdruck.
 
 
 ### Software-Entwickler
 - **Zeitraum:** 04.2002 - 06.2002
-- **Technologien:** J2EE, Bea Weblogic, JDBC, DB2, XML, Eclipse 2, CVS, JUnit, Ant, AS/400, Unix
-- **Beschreibung:** Analyse, Entwurf und Realisierung einer Web-Anwendung zur Überwachung von   Löschvorgängen in der zentralen Eintrags- Datenbank der T-Com, und Auswertung über Tage, Wochen, Monate.  Planung und Realisierung aller Themen außer Anwendungs-Test
+- **Technologien:** J2EE, BEA WebLogic, JDBC, DB2, XML, Eclipse 2, CVS, JUnit, Ant, AS/400, Unix
+- **Beschreibung:** Analyse, Entwurf und Realisierung einer Web-Anwendung zur Überwachung und Auswertung von Löschvorgängen in der zentralen Eintragsdatenbank der T-Com auf Tages-, Wochen- und Monatsbasis. Umsetzung aller Projektphasen außer Anwendungstests.
 
 
 ### Software-Entwickler
 - **Zeitraum:** 01.2002 - 03.2002
 - **Technologien:** J2EE, Rational Rose, EJB, CMP, DB2
-- **Beschreibung:** Entwurf mehrerer Varianten eines EJB's zum Auslesen und Speichern von Produktdaten.   Anforderungsanalyse und Implementierung
+- **Beschreibung:** Entwurf und Implementierung mehrerer Varianten eines EJB zur Speicherung und zum Auslesen von Produktdaten.
 
 
 ### Software-Entwickler
 - **Zeitraum:** 07.2001 - 08.2001
 - **Technologien:** J2EE, Tomcat, Visual Age for Java 3.0, Unix
-- **Beschreibung:** Wartung des Web-Clients zur Nachbearbeitung der per OCR erkannten Adress-Korrektur-Karten der Deutschen Post (Java). Verantwortlich für die Wartung und Weiterentwicklung der Datenbank-Schicht.
+- **Beschreibung:** Wartung des Web-Clients zur Nachbearbeitung von OCR-erkannten Adresskorrekturkarten der Deutschen Post. Verantwortlich für die Datenbankschicht (Weiterentwicklung und Wartung).
 
 
 ### Java-Coach, Software-Entwickler
 - **Zeitraum:** 03.2001 - 06.2001
 - **Technologien:** Swing, Visual Age for Java 3.0, Envy
-- **Beschreibung:** Coaching der Java-Anfänger; Erstellung eines Projekt-Piloten für die Nachbearbeitung von per FAX eingehenden und per OCR Halb-automatisch erfassten Meldebelegen.
+- **Beschreibung:** Coaching von Java-Einsteigern und Erstellung eines Projektpiloten zur Nachbearbeitung halbautomatisch (Fax/OCR) erfasster Meldebelege.
 
 
-### Anforderungsanalyse, Architektur, Implementierung, Installation und Post Sales Support der Swing-Oberfläche sowie des Web-Shops.
+### Anforderungsanalyse, Architektur, Implementierung, Installation und Post-Sales-Support
 - **Zeitraum:** 05.2000 - 02.2001
 - **Technologien:** J2EE (Servlets), Tomcat, Swing, Visual Age for Java 3.0, CVS, Unix
-- **Beschreibung:** Bei der Osram Medien-Datenbank (OMD) handelt es sich um einen Intranet-Shop  zur Verteilung von Marketing- Dokumenten (Prospekte, Kataloge etc), Bild-Dateien in mehrfachen Auflösungen und Dateiformaten, sowie Druck-Vorstufen. Die Dokumente wurden zuerst von einem Daten-Redakteur mit einer Swing-Anwendung in die Datenbank importiert. Die Kunden (Osram-Außenstellen, Dienstleister und Vertriebspartner) bestellten die Daten mittels einer Web-Oberfläche und entschieden sich für die Zusendung per E-Mail bzw. Datenträger. Die entstehenden Kosten wurden dem entsprechenden Osram-Kostenträger zugeordnet und monatlich abgerechnet. Ein ausgefeiltes Berechtigungs- und Abrechnungs- Management erlaubte die Budgetierung innerhalb von Abteilungen bzw Filialen.
+- **Beschreibung:** Entwicklung eines Intranet-Shops für Marketingdokumente (Prospekte, Bilder, Druckvorstufen). Dokumente wurden per Swing-Oberfläche importiert, Kunden konnten online bestellen. Verwaltung von Kostenstellen, Berechtigungen und Budgetierungen.
 
 
-### Implementierung des Swing-Clients
+### Software-Entwickler (Swing)
 - **Zeitraum:** 09.1999 - 04.2000
-- **Technologien:**  Visual Age for Java 3.0, Swing, ENVY, SAP Connectors for Java
-- **Beschreibung:** Im Rahmen des Platinum-Projekts der SAP wurden prototypisch große Teile der SAP-Software nach Java übersetzt. Der Teil "Learning Solution" der in Immenstaad am Bodensee ansässigen SAP LS stellte zu dieser Zeit den absoluten Vorreiter dar, lehnte er sich nicht nur optisch an die existierende Windows-Anwendung an, sondern fügte auch noch weitere, sehr hilfreiche Funktionen zur Erhöhung der Übersichtlichkeit sowie der Skalierbarkeit hinzu.
+- **Technologien:** Visual Age for Java 3.0, Swing, ENVY, SAP Connectors for Java
+- **Beschreibung:** Implementierung eines Swing-basierten Zertifizierungs-Clients im Rahmen des Platinum-Projekts bei SAP LS (Learning Solution). Fokus auf optische Anpassung und Skalierbarkeit zur Windows-Vorlage.
 
 
-### AIO Powerhouse
+### Entwickler und Betreiber
 - **Zeitraum:** 03.2017 - laufend
-- **Technologien:** Bash, Docker, SSH,
-- **Beschreibung:** https://hub.Docker.com/repository/Docker/outpost/ssh-relais
+- **Technologien:** Bash, Docker, SSH
+- **Beschreibung:** Docker-basierter SSH-Relay-Service zur vereinfachten Infrastrukturverwaltung.
+URL: https://hub.docker.com/repository/docker/outpost/ssh-relais
 
 
 ### Diplomand
 - **Zeitraum:** 03.1999 - 02.2000
-- **Technologien:**  Java,  JPad (einfacher Java-Editor)
-- **Beschreibung:** Design und Erstellung einer Timetabling- Software für die FH Konstanz mittels genetischer Algorithmen und Java.
+- **Technologien:** Java, JPad (Java-Editor)
+- **Beschreibung:** Konzeption und Umsetzung einer Timetabling-Software mittels genetischer Algorithmen im Rahmen meiner Diplomarbeit.
 
 
 ### Anforderungsanalyse und Implementierung
 - **Zeitraum:** 06.1998 - 02.1999
-- **Technologien:**  Delphi 3.0, lssolve (LGS-Solver)
-- **Beschreibung:** Design und Entwicklung eines Tools zur Generierung von Importdaten für ein Programm zur Berechnung von linearen Gleichungs-Systemen. Die Lösungen dienten  zur Optimierung von Aktien-Portfolios.
+- **Technologien:** Delphi 3.0, lssolve (LGS-Solver)
+- **Beschreibung:** Entwicklung eines Tools zur Generierung von Importdaten für lineare Gleichungssysteme zur Optimierung von Aktien-Portfolios.
 
 
-### Anforderungsanalyse und Implementierung
+### Anforderungsanalyse und Implementierung, Support
 - **Zeitraum:** 07.1985 - 09.1991
-- **Technologien:**  Turbo Pascal 6
-- **Beschreibung:** Anforderungs-Analyse, Entwicklung und Support der Artikelverwaltung des  elterlichen "Pelzhaus Jäcklin" in Ravensburg. Die Daten wurden in einer textbasierten Datenbank abgelegt, und in einem eigens programmierten Fenster-System eingegeben, dargestellt und editiert.
+- **Technologien:** Turbo Pascal 6
+- **Beschreibung:** Entwicklung und Wartung einer Artikelverwaltung auf Basis einer textbasierten Datenbank mit selbst entwickeltem Fenstersystem für das elterliche Pelzgeschäft.
 
