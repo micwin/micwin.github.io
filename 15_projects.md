@@ -11,6 +11,12 @@ Bitte haben Sie Verständnis dafür, dass ich öffentlich keine Endkunden nenne.
 Bitte fordern Sie gerne die Projektliste in Word-Format bzw. PDF an.
 
 
+### Entwickler (Rust)
+- **Zeitraum:** 06.2024 - laufend
+- **Technologien:** Rust, eframe, egui, rayon, crossbeam-channel, chrono
+- **Beschreibung:** Eine interaktive Rust-Anwendung zur Visualisierung des Travelling-Salesman-Problems (TSP). Das Tool ermöglicht die Untersuchung von optimalen Routen durch eine Brute-Force-Berechnung und bietet eine interaktive Oberfläche zum Verschieben von Punkten, eine Undo-/Redo-Funktion sowie eine Analyse der Stabilitätsbereiche.
+
+
 ### Integrator (Kubernetes, GitLab CI, Ansible)
 - **Zeitraum:** 05.2024 - 05.2025
 - **Technologien:** Kubernetes, Rancher Kubernetes Engine 2 (RKE2), Powershell, GitLab CI, Puppet, Ansible, Docker, Portman, Crane, Python
