@@ -18,6 +18,20 @@ abgeschlossen.
 
 Dies hier ist also der Platz um diese meine Dinge unterzubringen.
 
+## smokey
+
+Egal wie modern dein CI ist – irgendwo gibt es immer noch diese handverlesenen Smoke-Tests aus Readme-Schnipseln, Shell-One-Linern und Kaffee-getränkten Confluence-Docs. Genau die musst du eigentlich vor jedem Release manuell abklappern, nur um dann doch irgendwo zwischen `010-api-health.sh` und „hast du schon Redis neu gestartet?“ hängen zu bleiben. GitOps hin oder her: ich wollte endlich ein Werkzeug, das meine Mono-Repos deterministisch und ohne YAML-Zirkus qualmt – lokal wie auf jedem Runner.
+
+Also habe ich [smokey](https://micwin.github.io/smokey/) gebaut:
+
+- numerische Suites (000…999) mit garantierter Reihenfolge, inklusive Setup/Teardown, Skip-Code und Fail-Fast-Option
+- pro Lauf isolierte `.smokey-state/`-Verzeichnisse, damit verschachtelte Suites sich nicht gegenseitig kaputtputzen
+- nur Bash als Abhängigkeit; wahlweise Installer-One-Liner, Debian-Paket oder einfach `git clone && ./smokey`
+- Release-Automatisierung via GitHub Actions, die Script, .deb und Website aus demselben Commit erzeugt
+- statische Marketing-Seite mit ersetzbaren `{{VERSION}}`-Platzhaltern, damit Download-Buttons nie wieder ins Leere zeigen
+
+Wenn du Lust auf „langweilige, vorhersehbare Smoke-Tests“ hast: [smokey](https://micwin.github.io/smokey/).
+
 ## clici
 
 Ich arbeite nun schon einige Zeit als DevOps-Ingenieur; das bedeutet, 
