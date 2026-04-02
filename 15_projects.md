@@ -31,6 +31,34 @@ Bitte fordern Sie gerne die Projektliste in Word-Format bzw. PDF an.
 
   
 
+### PowerShell-Entwickler, Maintainer
+- **Zeitraum:** 01.2025 - laufend
+- **Technologien:** PowerShell 7, INI, Regex, Bash, Smokey
+- **Beschreibung:** Entwicklung eines PowerShell-Werkzeugs, das Konfigurationsdateien per INI-Regeln anonymisiert oder deanonymisiert. `full.*`-Paare sorgen für deterministische Zuordnungen, während `hint.*`-Regexe neue Token erkennen und automatisch als neue `full`-Sektionen anhängen. Das Tool läuft plattformübergreifend dank Shebang, aktualisiert die INI-Datei sicher und wird via Smokey-Test-Suite mit Bash orchestriert.
+
+- **Projekt:** deannon (Pro Bono)
+
+
+
+  
+
+
+  
+
+### Go-Entwickler, DevOps Engineer
+- **Zeitraum:** 04.2026 - laufend
+- **Technologien:** Go, Argon2id, REST, Docker, Smokey
+- **Beschreibung:** Git-freundlicher Secret-Store mit per-Datei-Verschlüsselung, Argon2id-Schlüsselableitung und manuellem Unseal-Flow. Implementiert REST-Daemon und localhost-CLI, Import/Export-Helfer und Docker-/Systemd-Targets. Tests laufen über Smokey-Suites, Pakete entstehen via Debian-Build-Skripten.
+
+- **Projekt:** vaultline (Pro Bono)
+
+
+
+  
+
+
+  
+
 ### Rust-Entwickler
 - **Zeitraum:** 06.2024 - 06.2024
 - **Technologien:** Rust, eframe, egui, rayon, crossbeam-channel, chrono
