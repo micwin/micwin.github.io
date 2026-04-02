@@ -4,7 +4,7 @@ title: Pro Bono
 permalink: /probono/
 ---
 
-| [clici](#clici) | [backup_tools](#backup_tools)  | [ssh-relais](#ssh-relais) | [ticino events](#ticino-events) | [ticino context](#ticino-context) | [chance2 / open space](#verspielt) |
+| [smokey](#smokey) | [vaultline](#vaultline) | [deannon](#deannon) | [clici](#clici) | [backup_tools](#backup_tools) | [ssh-relais](#ssh-relais) | [ticino events](#ticino-events) | [ticino context](#ticino-context) | [chance2 / open space](#verspielt) |
 
 Hin und wieder kristallisiert sich in meiner täglichen Arbeit 
 ein Problem heraus, das sich mit Software lösen lässt. Dann setze 
