@@ -36,7 +36,7 @@ Wenn du Lust auf „langweilige, vorhersehbare Smoke-Tests“ hast: [smokey](htt
 
 Es gibt diese einen Kundenreports, in denen Kundennamen, Umgebungs-URLs und Credentials stehen - und genau die landen dann im Wiki, in Tickets oder werden als Beispiel an Dritte geschickt. Jeder schwört, sie vorher zu schwärzen, am Ende liegen trotzdem echte Domains im Config-Snippet. Mein Gehirn war fertig mit „Suchen & Ersetzen“ auf Zuruf, also habe ich ein Tool gebaut, das zuverlässig anonymisiert _und_ die Rückrichtung gleich mitliefert.
 
-Heraus kam [deannon](https://github.com/micwin/deannon){:target="_blank" rel="noopener"}:
+Heraus kam [deannon](https://github.com/micwin/deannon){:target="_blank" rel="noopener"} - eins meiner Lieblingswerkzeuge, wenn ich strukturierten Beispielcode an ChatGPT verfüttern will, ohne dass echte Kundendaten durchs Netz wandern:
 
 - INI-gesteuerte `full.*`-Paare definieren Original ↔ Alias, `hint.*`-Regexe erkennen neue Tokens und hängen automatisch passende `full`-Sektionen an
 - erkennt selbst, ob anonymisiert oder deanonymisiert werden soll - kein Flag-Dschungel, einfach `./deannon.ps1 …`
