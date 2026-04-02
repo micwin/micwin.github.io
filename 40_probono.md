@@ -4,7 +4,7 @@ title: Pro Bono
 permalink: /probono/
 ---
 
-**Pro-Bono-Projekte:** [smokey](#smokey) · [vaultline](#vaultline) · [deannon](#deannon) · [clici](#clici) · [backup_tools](#backup_tools) · [ssh-relais](#ssh-relais) · [ticino events](#ticino-events) · [ticino context](#ticino-context) · [chance2 / open space](#verspielt)
+**Pro-Bono-Projekte:** <a href="#smokey" title="Bash Smoke Tests">smokey</a> · <a href="#vaultline" title="Secret Store">vaultline</a> · <a href="#deannon" title="Text anonymisieren">deannon</a> · <a href="#clici" title="CI via CLI">clici</a> · <a href="#backup_tools" title="Shell-Backups">backup_tools</a> · <a href="#ssh-relais" title="SSH Relay">ssh-relais</a> · <a href="#ticino-events" title="Java Event-Bus">ticino events</a> · <a href="#ticino-context" title="Java Collections">ticino context</a> · <a href="#verspielt" title="Wicket Game">chance2 / open space</a>
 
 Hin und wieder kristallisiert sich in meiner täglichen Arbeit 
 ein Problem heraus, das sich mit Software lösen lässt. Dann setze 
