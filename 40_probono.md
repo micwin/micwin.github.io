@@ -20,7 +20,7 @@ Dies hier ist also der Platz um diese meine Dinge unterzubringen.
 
 ## smokey
 
-Egal wie modern dein CI ist – irgendwo gibt es immer noch diese handverlesenen Smoke-Tests aus Readme-Schnipseln, Shell-One-Linern und Kaffee-getränkten Confluence-Docs. Genau die musst du eigentlich vor jedem Release manuell abklappern, nur um dann doch irgendwo zwischen `010-api-health.sh` und „hast du schon Redis neu gestartet?“ hängen zu bleiben. GitOps hin oder her: ich wollte endlich ein Werkzeug, das meine Mono-Repos deterministisch und ohne YAML-Zirkus qualmt – lokal wie auf jedem Runner.
+Egal wie modern dein CI ist - irgendwo gibt es immer noch diese handverlesenen Smoke-Tests aus Readme-Schnipseln, Shell-One-Linern und Kaffee-getränkten Confluence-Docs. Genau die musst du eigentlich vor jedem Release manuell abklappern, nur um dann doch irgendwo zwischen `010-api-health.sh` und „hast du schon Redis neu gestartet?“ hängen zu bleiben. GitOps hin oder her: ich wollte endlich ein Werkzeug, das meine Mono-Repos deterministisch und ohne YAML-Zirkus qualmt - lokal wie auf jedem Runner.
 
 Also habe ich [smokey](https://micwin.github.io/smokey/) gebaut:
 
@@ -31,6 +31,33 @@ Also habe ich [smokey](https://micwin.github.io/smokey/) gebaut:
 - statische Marketing-Seite mit ersetzbaren `{{VERSION}}`-Platzhaltern, damit Download-Buttons nie wieder ins Leere zeigen
 
 Wenn du Lust auf „langweilige, vorhersehbare Smoke-Tests“ hast: [smokey](https://micwin.github.io/smokey/).
+
+## deannon
+
+Es gibt diese einen Kundenreports, in denen Kundennamen, Umgebungs-URLs und Credentials stehen - und genau die landen dann im Wiki, in Tickets oder werden als Beispiel an Dritte geschickt. Jeder schwört, sie vorher zu schwärzen, am Ende liegen trotzdem echte Domains im Config-Snippet. Mein Gehirn war fertig mit „Suchen & Ersetzen“ auf Zuruf, also habe ich ein Tool gebaut, das zuverlässig anonymisiert _und_ die Rückrichtung gleich mitliefert.
+
+Heraus kam [deannon](https://github.com/micwin/deannon){:target="_blank" rel="noopener"}:
+
+- INI-gesteuerte `full.*`-Paare definieren Original ↔ Alias, `hint.*`-Regexe erkennen neue Tokens und hängen automatisch passende `full`-Sektionen an
+- erkennt selbst, ob anonymisiert oder deanonymisiert werden soll - kein Flag-Dschungel, einfach `./deannon.ps1 …`
+- plattformfreundlich dank Shebang und PowerShell 7; läuft genauso auf Linux/macOS wie auf Windows mit `pwsh -File`
+- Smokey-Suite mit Bash-Wrappern erledigt die Regressionstests und hält Fixtures sauber
+
+Ich nutze es für Betriebsdokus, Chat-Logs und jede Datei, die „mal eben“ bereinigt werden muss - [deannon](https://github.com/micwin/deannon){:target="_blank" rel="noopener"}.
+
+## vaultline
+
+„Kannst du mir kurz den Firewall-Schlüssel schicken?“ - „Nein.“ - „Dann eben Screenshot aus KeePass…“ - genau diese Unterhaltung wollte ich nicht mehr führen. Also habe ich begonnen, Secrets in einem Git-fähigen Speicher abzulegen, ohne PGP- oder YAML-Monster.
+
+Das Ergebnis heißt [vaultline](https://github.com/micwin/vaultline){:target="_blank" rel="noopener"}:
+
+- flache Key-Space-Struktur, jedes Secret lebt in einer eigenen verschlüsselten Datei → Git-Diffs bleiben nachvollziehbar
+- Argon2id leitet aus einer Passphrase deterministisch alle Schlüssel ab; Clones brauchen nur das Passwort, kein Blob-Zoo
+- REST-Daemon plus localhost-CLI, optional containerisiert via Docker Compose oder klassisch über Systemd-Units
+- Import/Export-Helfer synchronisieren Stores zwischen Hosts; Smokey-Suites booten Daemon + CLI im `.testrun/`-Verzeichnis
+- Debian-Paketierung und Release-Skripte, damit ich nicht jedes Mal manuell verteile
+
+Manchmal muss mans selber machen und darum ist vaultline jetzt meine To-Go-Lösung - MIT-Lizenz, Git-fähig, und solange ein Kunde nichts anderes verlangt, nehme ich genau das her - [vaultline](https://github.com/micwin/vaultline){:target="_blank" rel="noopener"}.
 
 ## clici
 
