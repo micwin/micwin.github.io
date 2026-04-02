@@ -2,6 +2,7 @@
 layout: page
 title: Impressum
 permalink: /impressum/
+---
 
 Verantwortlich f&uuml;r den Inhalt dieser Website gemäß § 5 TMG und § 18 Abs. 2 MStV:
 
